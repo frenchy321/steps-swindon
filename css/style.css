@@ -1,0 +1,214 @@
+body * {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* HOME-PAGE */
+
+nav a {
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+#home-header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/step-header-img.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+#home-header h1 {
+  font-size: 90px;
+  font-family: "Pacifico", cursive;
+}
+
+#home-header h2 {
+  font-size: 40px;
+  font-family: "Aleo", serif;
+}
+
+/* TILE-SLIDER-PLUGIN */
+
+.tiles-slider {
+  padding: 0;
+  list-style-type: none;
+  overflow: auto;
+  margin-bottom: 0;
+  background: #000;
+}
+
+.tiles-slider li {
+  width: 25%;
+  float: left;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -moz-webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tiles-slider img {
+  width: 100%;
+}
+
+.tiles-slider li:first-child {
+  width: 50%;
+}
+
+.shrink-tile {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.tiles-slider li:first-child.shrink-tile {
+  -webkit-transform: scale(0.25);
+  -moz-transform: scale(0.25);
+  transform: scale(0.25);
+}
+
+/* END-OF-PLUGIN */
+
+.home-icons {
+  font-size: 150px;
+}
+
+#home-icons div.expand {
+  display: none;
+}
+#home-icons h3 {
+  font-size: 50px;
+}
+
+#home-icons h3,
+i:hover {
+  cursor: pointer;
+}
+
+.quote-slider {
+  display: none;
+  font-size: 30px;
+  font-style: italic;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.quote-slider:first-of-type {
+  display: block;
+}
+
+#quote-icon {
+  font-size: 50px;
+  float: left;
+  font-style: italic;
+  margin-top: -30px;
+}
+
+#denim-girl-img {
+  min-height: 900px;
+}
+
+#book-teacher-img {
+  opacity: 0.8;
+}
+
+hr {
+  border-bottom: 1px solid black;
+  width: 75%;
+}
+
+/* HOME-LIGHTBOX */
+
+#home-lightbox a > img {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+/* END OF LIGHTBOX */
+
+/* ACCORDION */
+
+#accordion {
+  margin-top: 2rem;
+  background: rgb(167, 156, 156);
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#accordion .a {
+  display: none;
+}
+
+#accordion i {
+  padding-right: 10px;
+  padding-top: 6px;
+}
+
+#accordion hr {
+  width: 100%;
+}
+
+/* ---END---- */
+
+#home-footer hr {
+  border-bottom: 1px solid #fff;
+}
+
+#top-footer-text p {
+  float: left;
+
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#home-footer i {
+  font-size: 30px;
+  margin-left: 20px;
+  float: right;
+}
+
+#top-footer-text i:hover {
+  color: blue;
+}
+/*  MEDIA QUERIES - HOME PAGE */
+
+@media only screen and (max-width: 768px) {
+  #home-icons i {
+    margin-top: 2rem;
+  }
+  #image-slider {
+    padding-top: 5rem;
+  }
+  #top-footer-text i {
+    float: none;
+  }
+  #top-footer-text p {
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .quote-slider {
+    font-size: 15px;
+  }
+  #teacher-slider {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  #quote-icon {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+}
