@@ -50,9 +50,16 @@
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item"><a class="nav-link" href="about us.html">About</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+              <div class="dropdown-menu text-center">
+                <a class="dropdown-item" href="#">Make A Refferal</a>
+                <a class="dropdown-item" href="#">Frequently Asked Questions</a>
+                <a class="dropdown-item" href="#">Staff And Volunteers</a>
+              </div>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="groups and activities.html">Activities</a>
+              <a class="nav-link" href="groups and activities.html">Groups</a>
             </li>
             <li class="nav-item"><a href="Fundraising.html" class="nav-link">Fundraising</a></li>
             <li class="nav-item"><a href="Volunteering.html" class="nav-link">Volunteering</a></li>
@@ -242,7 +249,7 @@
                 <div class="card bg-danger">
                   <a href="#" class="text-white">
                     <h3 class="card-header">
-                      Donate
+                      Fundriase
                     </h3>
                   </a>
                     <p class="card-body">
@@ -255,7 +262,7 @@
       </section>
 
       <section id="home-lightbox">
-        <div class="container">
+        <div class="container mb-5">
           <h3 class="py-5 font-weight-bold">Lightbox</h3>
           <div class="row">
             <div class="col-md-3">
@@ -274,37 +281,62 @@
         </div>
       </section>
 
-      <section id="accordion">
+      <section id="questions-and-answers" class="mt-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <h3>Question And Answers</h3>
-              <div>
-                <div class="d-flex justify-content-center">
-                <i class="fas fa-arrow-right"></i><p class="q">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-                <hr>
-                <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate vel ipsum.</p>
-                <div class="d-flex justify-content-center">
-                  <i class="fas fa-arrow-right"></i><p class="q">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-                <hr>
-                <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate vel ipsum.</p>
-                <div class="d-flex justify-content-center">
-                  <i class="fas fa-arrow-right"></i><p class="q">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-                <hr>
-                <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate vel ipsum.</p>
-                <div class="d-flex justify-content-center">
-                  <i class="fas fa-arrow-right"></i><p class="q">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-                <hr>
-                <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate vel ipsum.</p>
-                <div class="d-flex justify-content-center">
-                  <i class="fas fa-arrow-right"></i><p class="q">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
-                <hr>
-                <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate vel ipsum.</p>
+            <div class="col">
+              <h3 class="py-5">Questions And Answers</h3>
+              <div class="accordion pb-5" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Question 1
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Question 2
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Question 3
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      
 
       <footer id="home-footer" class="bg-dark text-center py-4 text-white mt-5">
         <div class="container">

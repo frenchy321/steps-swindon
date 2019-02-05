@@ -16,6 +16,8 @@
   });
 });*/
 
+// NAV-DROPDOWN1
+
 // HOME-ICONS-SLIDER
 
 $(function() {
@@ -81,3 +83,5 @@ $(function() {
     type: "image"
   });
 });
+
+// ACCORDION
