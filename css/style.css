@@ -71,6 +71,10 @@ nav a {
 
 /* END-OF-PLUGIN */
 
+#image-slider h2 {
+  font-size: 45px;
+}
+
 .home-icons {
   font-size: 150px;
 }
@@ -85,6 +89,10 @@ nav a {
 #home-icons h3,
 i:hover {
   cursor: pointer;
+}
+
+#training h2 {
+  font-size: 45px;
 }
 
 .quote-slider {
@@ -123,6 +131,10 @@ hr {
   width: 75%;
 }
 
+#wrapper h2 {
+  font-size: 45px;
+}
+
 /* HOME-LIGHTBOX */
 
 #home-lightbox a > img {
@@ -130,6 +142,10 @@ hr {
   height: 100%;
   width: 100%;
   position: relative;
+}
+
+#home-lightbox h2 {
+  font-size: 50px;
 }
 /* END OF LIGHTBOX */
 
