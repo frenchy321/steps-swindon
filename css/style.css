@@ -24,6 +24,7 @@ nav a {
 #home-header h1 {
   font-size: 90px;
   font-family: "Pacifico", cursive;
+  color: orange;
 }
 
 #home-header h2 {
@@ -206,8 +207,13 @@ hr {
     padding-top: 5rem;
   }
 
-  #home-lighbox a > img {
+  #cards .card {
     margin-bottom: 2rem;
+  }
+
+  #home-lightbox a > img {
+    margin-bottom: 2rem;
+    border: 20px solid #fff;
   }
   #top-footer-text i {
     float: none;

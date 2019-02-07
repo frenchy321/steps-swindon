@@ -83,5 +83,3 @@ $(function() {
     type: "image"
   });
 });
-
-// ACCORDION
