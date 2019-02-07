@@ -205,6 +205,10 @@ hr {
   #image-slider {
     padding-top: 5rem;
   }
+
+  #home-lighbox a > img {
+    margin-bottom: 2rem;
+  }
   #top-footer-text i {
     float: none;
   }
