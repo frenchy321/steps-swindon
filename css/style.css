@@ -164,7 +164,7 @@ hr {
 
 /* ---END---- */
 
-/* QUESTIONS AND ANSWERS */
+/* HOME PAGE QUESTIONS AND ANSWERS */
 
 #collapseOne,
 #collapseTwo,
@@ -306,4 +306,17 @@ span:nth-child(2n) {
     font-size: 20px;
     margin-top: 0px;
   }
+}
+
+/* CONTACT PAGE  */
+
+/* CONTACT HEADER */
+
+#contact-us {
+  background: #2b7586;
+  color: #fff;
+}
+
+#contact-us p {
+  font-size: 20px;
 }
