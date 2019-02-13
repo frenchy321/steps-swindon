@@ -24,7 +24,7 @@ nav a {
 #home-header h1 {
   font-size: 90px;
   font-family: "Pacifico", cursive;
-  color: orange;
+  color: #fff;
 }
 
 #home-header h2 {
@@ -74,6 +74,10 @@ nav a {
 
 #image-slider h2 {
   font-size: 47px;
+}
+
+#home-icons {
+  background: rgb(39, 16, 167);
 }
 
 .home-icons {
@@ -136,6 +140,12 @@ hr {
   font-size: 47px;
 }
 
+/* HOME-PAGE-CARDS */
+
+#cards {
+  background: rgb(39, 16, 167);
+}
+
 /* HOME-LIGHTBOX */
 
 #home-lightbox a > img {
@@ -176,6 +186,61 @@ hr {
   background: #5c747a;
 }
 
+/* SPINNER-PLUGIN */
+
+#spinner h1 {
+  @import url(
+    https://fonts.googleapis.com/css?family=Raleway:400,
+    500,
+    300,
+    600,
+    700,
+    800
+  );
+}
+
+#spinner h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 3em;
+  color: #9a12b3;
+}
+
+.letterDrop {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  opacity: 0.8;
+  transform: rotateX(-90deg);
+  animation: letterDrop 1.2s ease 1 normal forwards;
+}
+
+@keyframes letterDrop {
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 0.8;
+    top: 3.75em;
+    transform: rotateX(-360deg);
+  }
+  100% {
+    opacity: 1;
+    top: 4.5em;
+    transform: rotateX(360deg);
+  }
+}
+
+span:nth-child(2n) {
+  color: #663399;
+}
+
+/* PLUGIN-END */
+
 #home-footer hr {
   border-bottom: 1px solid #fff;
 }
@@ -198,6 +263,12 @@ hr {
 }
 
 /*  MEDIA QUERIES - HOME PAGE */
+
+@media screen and (max-width: 500px) {
+  .quote-slip {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   #home-icons i {
