@@ -82,11 +82,22 @@
 
       <!-- CONTACT-FORM -->
 
-      <section id="contact-info">
+      <section id="contact-info" class="py-5">
           <div class="container">
               <div class="row">
-                  <div class="col-md-12">
-                    <h4></h4>
+                  <div class="col-md-6">
+                    <h4>Phone:</h4>
+                    <p>01793 714042</p>
+                    <hr>
+                    <h4>Visit Us:</h4>
+                    <p> Nythe Centre, The Drive, Nythe, Swindon SN3 3RR</p>
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Email:</h4>
+                    <p>swindonstep@aol.com</p>
+                    <hr>
+                    <h4>Visit Us</h4>
+                    <p>Give Feedback:</p>
                   </div>
                   
               </div>
@@ -100,19 +111,33 @@
 
     <!-- GOOGLE-MAPS -->
 
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8" id="contact-form"> 
-                      
-                    </div>
-                    <div class="col-md-4">
-                        <div id="somecomponent" class="mt-5 ml-auto" style="width: 500px; height: 400px;"></div>
-                    </div>
+        <section id="contact-section">
+          <div class="container p-5 d-flex d-sm-block">
+            <div class="row">
+              <div class="col-md-12 col-lg-6 align-self-center justify-content-center">
+                <div id="somecomponent" style="width: 400px; height: 400px;"></div>
+              </div>
+              <div id="container-contact" class="col-md-12 col-lg-6 mt-5">
+                <div>
+                  <form action="action_page.php">
+                
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </section>
-
       
 
       
