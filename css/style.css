@@ -146,6 +146,34 @@ hr {
   background: rgb(39, 16, 167);
 }
 
+.slide-link:hover {
+  text-decoration: none;
+}
+
+.slide-link > h3:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.slide-link > h3 {
+  transition: background-color 0.3s;
+  color: #fff;
+}
+
+.slide-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+  text-decoration: none;
+}
+
+.slide-link:hover::after {
+  width: 100%;
+  text-decoration: none;
+}
+
 /* HOME-LIGHTBOX */
 
 #home-lightbox a > img {
@@ -332,10 +360,6 @@ span:nth-child(2n) {
 
 #contact-us p {
   font-size: 20px;
-}
-
-#contact-us div h1 p {
-  color: #fff;
 }
 
 /* CONTACT-FORM */

@@ -27,7 +27,7 @@
     
     <title>Swindon steps</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#list-example">
 
     <!-- NAV BAR -->
     
@@ -66,9 +66,11 @@
         </div>
       </div>
     </nav>
+    
 
       <!-- HEADER -->
 
+      
       <section id="home-header" class="py-5 text-white">
           <div class="container">
             <h1 class="py-4">Swindon 10 To 18 Project</h1>
@@ -78,6 +80,8 @@
         </section>
 
         <!-- FREQUENTLY ASKED QUESTIONS -->
+
+        <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
 
         <section class="d-flex py-5">
           <div id="image-slider" class="container pb-5 align-items-center justify-content-center">
@@ -148,6 +152,9 @@
           </div>
         </div>
       </section>
+    </div>
+
+      <!-- TRAINING SECTION -->
 
       <section id="training">
         <div class="container">
@@ -178,6 +185,7 @@
           </div>
         </div>
       </section>
+    
 
       <hr>
 
@@ -215,6 +223,7 @@
           </div>
         </div>
       </section>
+    
 
       <!-- CARDS -->
 
@@ -223,19 +232,20 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card bg-danger">
-                  <a href="#" class="text-white">
+                  <a href="#" class="text-white slide-link">
                 <h3 class="card-header">
                   Donate
                 </h3>
-                </a>
+              </a>
                 <p class="card-body">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio perferendis laborum impedit repudiandae? Dolorum praesentium, cupiditate vitae impedit voluptatum eius.
                 </p>
+              </a>
               </div>
             </div>
             <div class="col-md-4">
                 <div class="card bg-danger">
-                    <a href="#" class="text-white">
+                    <a href="#" class="text-white slide-link">
                     <h3 class="card-header">
                       Volunteer
                     </h3>
@@ -247,7 +257,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card bg-danger">
-                  <a href="#" class="text-white">
+                  <a href="#" class="text-white slide-link">
                     <h3 class="card-header">
                       Fundraise
                     </h3>
@@ -260,6 +270,7 @@
           </div>
         </div>
       </section>
+    
 
       <!-- LIGHTBOX -->
 
@@ -340,6 +351,7 @@
           </div>
         </div>
       </section>
+      
 
       <!-- FOOTER -->
 
@@ -368,9 +380,6 @@
           </div>
         </div>
       </footer>
-
-      
-    <script src="scripts/jquery3.3.1"></script>
 
     <!-- GOOGLE-MAP -->
 

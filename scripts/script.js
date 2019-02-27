@@ -78,7 +78,8 @@ $(function() {
 
 $(function() {
   $("#home-lightbox a").magnificPopup({
-    type: "image"
+    type: "image",
+    gallery: { enabled: true }
   });
 });
 
@@ -147,10 +148,51 @@ $(function() {
 })(jQuery);
 
 // USAGE
-$("#spinner h1").letterDrop();
+$("#spinner").letterDrop();
 
 // END-OF-SPINNER-PLUGIN
 
 $(function() {
-  $("#somecomponent").locationpicker();
+  // $("#somecomponent").locationpicker();
 });
+
+// CONTACT-FORM
+
+// When you submit the form
+// If any of the input boxes or textareas are empty
+// Then highlight the empty input in red
+// ...and don't let the form submit
+
+// Level 1 - when the JS file is evaluated
+
+$(function() {
+  // Level 2 - when jQuery tells us that the document is ready
+
+  $("#container-contact form").submit(function(e) {
+    // Level 3 - when jQuery tells us that a form submit event has happened
+    var textInputs = $(this).find("input[type='text'], textarea");
+    let isValid = true;
+    textInputs.each(function(index) {
+      if ($(this).val() === "") {
+        $(this).css({ border: "1px solid red" });
+        isValid = false;
+      } else {
+        $(this).css({ border: "none" });
+      }
+    });
+
+    if (!isValid) {
+    }
+    e.preventDefault();
+
+    // Level 3 - when jQuery tells us that a form submit event has happened
+  });
+
+  // Level 2 - when jQuery tells us that the document is ready
+});
+
+// Level 1 - when the JS file is evaluated
+
+// SCROLL-SPY
+
+$("body").scrollspy({ target: "#list-example" });
