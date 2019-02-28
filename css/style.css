@@ -3,6 +3,15 @@ body * {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 47px;
+  font-weight: bold;
+}
+
 /* HOME-PAGE */
 
 nav a {
@@ -15,7 +24,7 @@ nav a {
 }
 
 .bg-deep-blue {
-  background: rgb(39, 16, 167);
+  background: rgb(14, 10, 212);
 }
 
 .bg-blue-gray {
@@ -202,7 +211,7 @@ hr {
 #collapseOne,
 #collapseTwo,
 #collapseThree .card-body {
-  background: #05366b;
+  background: rgb(14, 10, 212);
   color: #fff;
 }
 
@@ -237,6 +246,10 @@ hr {
 }
 
 #top-footer-text .fab:hover {
+  color: rgba(233, 219, 219, 0.747);
+}
+
+#top-footer-text a > p:hover {
   color: rgba(233, 219, 219, 0.747);
 }
 
@@ -289,6 +302,23 @@ hr {
 /* ABOUT PAGE */
 
 #about-header {
+  min-height: 300px;
+}
+
+#latest-news {
+  min-height: 300px;
+}
+
+/* STAFF AND VOLUNTEERS */
+
+#staff-and-volunteers img {
+  height: 200px;
+  width: 200px;
+}
+
+/* LATEST NEWS */
+
+#latest-news h2 {
   min-height: 300px;
 }
 
