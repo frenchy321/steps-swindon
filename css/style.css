@@ -14,6 +14,14 @@ nav a {
   font-size: 30px;
 }
 
+.bg-deep-blue {
+  background: rgb(39, 16, 167);
+}
+
+.bg-blue-gray {
+  background: rgb(117, 141, 167);
+}
+
 #home-header {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/step-header-img.jpg);
@@ -76,16 +84,13 @@ nav a {
   font-size: 47px;
 }
 
-#home-icons {
-  background: rgb(39, 16, 167);
-}
-
 .home-icons {
   font-size: 150px;
 }
 
 #home-icons div.expand {
   display: none;
+  overflow: auto;
 }
 #home-icons h3 {
   font-size: 50px;
@@ -98,6 +103,10 @@ i:hover {
 
 #training h2 {
   font-size: 47px;
+}
+
+#roll {
+  border-radius: 1em;
 }
 
 .quote-slider {
@@ -141,10 +150,6 @@ hr {
 }
 
 /* HOME-PAGE-CARDS */
-
-#cards {
-  background: rgb(39, 16, 167);
-}
 
 .slide-link:hover {
   text-decoration: none;
