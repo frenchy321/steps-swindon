@@ -219,61 +219,6 @@ hr {
   background: #5c747a;
 }
 
-/* SPINNER-PLUGIN */
-
-#spinner h1 {
-  @import url(
-    https://fonts.googleapis.com/css?family=Raleway:400,
-    500,
-    300,
-    600,
-    700,
-    800
-  );
-}
-
-#spinner h1 {
-  margin: 0;
-  padding: 0;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 3em;
-  color: #9a12b3;
-}
-
-.letterDrop {
-  position: relative;
-  top: 0;
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  opacity: 0.8;
-  transform: rotateX(-90deg);
-  animation: letterDrop 1.2s ease 1 normal forwards;
-}
-
-@keyframes letterDrop {
-  10% {
-    opacity: 0.5;
-  }
-  20% {
-    opacity: 0.8;
-    top: 3.75em;
-    transform: rotateX(-360deg);
-  }
-  100% {
-    opacity: 1;
-    top: 4.5em;
-    transform: rotateX(360deg);
-  }
-}
-
-span:nth-child(2n) {
-  color: #663399;
-}
-
-/* PLUGIN-END */
-
 #home-footer hr {
   border-bottom: 1px solid #fff;
 }
@@ -341,9 +286,15 @@ span:nth-child(2n) {
   }
 }
 
+/* ABOUT PAGE */
+
+#about-header {
+  min-height: 300px;
+}
+
 /* CONTACT PAGE  */
 
-/* CONTACT HEADER */
+/*  HEADER */
 
 #contact-us {
   background-image: url("../images/teenagers-on-wall.jpg");
@@ -385,7 +336,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
-  background-color: #2b7586;
+  background: rgb(39, 16, 167);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -396,7 +347,8 @@ input[type="submit"] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type="submit"]:hover {
   background-color: #ffffff;
-  color: #2b7586;
+  color: rgb(39, 16, 167);
+  border: 1px solid rgb(39, 16, 167);
 }
 
 /* Add a background color and some padding around the form */
