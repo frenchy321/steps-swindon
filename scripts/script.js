@@ -125,3 +125,9 @@ $(function() {
 // SCROLL-SPY
 
 $("body").scrollspy({ target: "#list-example" });
+
+// ABOUT PAGE
+
+// LATEST NEWS
+
+

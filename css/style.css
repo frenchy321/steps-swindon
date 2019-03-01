@@ -301,13 +301,40 @@ hr {
 
 /* ABOUT PAGE */
 
+#about-hero {
+  height: 550px;
+}
+
+#about-hero {
+  background-image: url("../images/group-fun.jpg");
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+#about-hero::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#about-hero p {
+  font-size: 20px;
+}
+
+#about-hero h1 {
+}
+
 #about-header {
   min-height: 300px;
 }
 
-#latest-news {
-  min-height: 300px;
-}
+
 
 /* STAFF AND VOLUNTEERS */
 
@@ -318,8 +345,12 @@ hr {
 
 /* LATEST NEWS */
 
-#latest-news h2 {
+#latest-news {
   min-height: 300px;
+}
+
+#latest-news a {
+ font-size: 150px;
 }
 
 /* CONTACT PAGE  */
