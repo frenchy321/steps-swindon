@@ -349,8 +349,13 @@ hr {
   min-height: 300px;
 }
 
-#latest-news a {
+#latest-news .fas {
  font-size: 150px;
+ 
+}
+
+.blue-link {
+  color: #007bff;
 }
 
 /* CONTACT PAGE  */

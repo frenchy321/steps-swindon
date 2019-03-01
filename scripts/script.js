@@ -131,3 +131,20 @@ $("body").scrollspy({ target: "#list-example" });
 // LATEST NEWS
 
 
+
+
+
+// ABOUT MODAL PLUGIN
+
+// Instantiate new modal
+var modal = new Custombox.modal({
+  content: {
+    effect: 'fadein',
+    target: '#modal'
+  }
+});
+
+// Open
+modal.open();
+
+
