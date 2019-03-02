@@ -130,21 +130,21 @@ $("body").scrollspy({ target: "#list-example" });
 
 // LATEST NEWS
 
-
-
-
-
 // ABOUT MODAL PLUGIN
 
 // Instantiate new modal
 var modal = new Custombox.modal({
   content: {
-    effect: 'fadein',
-    target: '#modal'
+    effect: "fadein",
+    target: "#modal"
   }
 });
 
 // Open
 modal.open();
 
+// GROUPS TESTIMONIAL SLIDER
 
+$(".carousel").carousel({
+  interval: 2000
+});

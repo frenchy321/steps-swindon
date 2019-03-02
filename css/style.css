@@ -12,6 +12,10 @@ h2 {
   font-weight: bold;
 }
 
+.purple-background {
+  background: rgb(39, 16, 167);
+}
+
 /* HOME-PAGE */
 
 nav a {
@@ -211,7 +215,7 @@ hr {
 #collapseOne,
 #collapseTwo,
 #collapseThree .card-body {
-  background: rgb(14, 10, 212);
+  background: rgb(39, 16, 167);
   color: #fff;
 }
 
@@ -334,8 +338,6 @@ hr {
   min-height: 300px;
 }
 
-
-
 /* STAFF AND VOLUNTEERS */
 
 #staff-and-volunteers img {
@@ -350,12 +352,17 @@ hr {
 }
 
 #latest-news .fas {
- font-size: 150px;
- 
+  font-size: 150px;
 }
 
 .blue-link {
   color: #007bff;
+}
+
+/* GROUPS PAGE */
+
+.carousel-item {
+  height: 300px;
 }
 
 /* CONTACT PAGE  */
