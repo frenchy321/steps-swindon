@@ -49,10 +49,10 @@ $(function() {
   var quoteTimer = setInterval(changeQuote, 5000);
 });
 
-// HOME-CAROUSEL
+// CAROUSELS ( HOME AND GROUPS)
 
 $(".carousel").carousel({
-  interval: 2000
+  interval: 4000
 });
 
 // Get the current year for the copyright ?????????????????
@@ -142,9 +142,3 @@ var modal = new Custombox.modal({
 
 // Open
 modal.open();
-
-// GROUPS TESTIMONIAL SLIDER
-
-$(".carousel").carousel({
-  interval: 2000
-});

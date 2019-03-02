@@ -365,6 +365,11 @@ hr {
   height: 300px;
 }
 
+#testimonial-slider img {
+  height: 200px;
+  width: 200px;
+}
+
 /* CONTACT PAGE  */
 
 /*  HEADER */
