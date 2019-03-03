@@ -331,9 +331,6 @@ hr {
   font-size: 20px;
 }
 
-#about-hero h1 {
-}
-
 #about-header {
   min-height: 300px;
 }
@@ -352,7 +349,7 @@ hr {
 }
 
 #latest-news .fas {
-  font-size: 150px;
+  font-size: 200px;
 }
 
 .blue-link {
@@ -360,6 +357,24 @@ hr {
 }
 
 /* GROUPS PAGE */
+
+#testimonials-header {
+  background-image: url("../images/festival-girls.jpg");
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+#testimonials-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
 
 .carousel-item {
   height: 300px;
