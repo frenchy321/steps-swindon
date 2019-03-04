@@ -17,7 +17,15 @@ h2 {
 }
 
 .deep-purple-bg {
-  background: rgb(95, 70, 152);
+  background: rgb(52, 39, 82);
+}
+
+.bg-deep-blue {
+  background: rgb(39, 16, 167);
+}
+
+.bg-blue-gray {
+  background: rgb(117, 141, 167);
 }
 
 /* HOME-PAGE */
@@ -29,14 +37,6 @@ nav a {
 
 .navbar-brand {
   font-size: 30px;
-}
-
-.bg-deep-blue {
-  background: rgb(14, 10, 212);
-}
-
-.bg-blue-gray {
-  background: rgb(117, 141, 167);
 }
 
 #home-header {
@@ -361,6 +361,12 @@ hr {
 }
 
 /* GROUPS PAGE */
+
+#referal-form a:hover {
+  background: #fff;
+  border: 2px solid rgb(117, 141, 167);
+  color: rgb(117, 141, 167) !important;
+}
 
 #testimonials-header {
   background-image: url("../images/festival-girls.jpg");
