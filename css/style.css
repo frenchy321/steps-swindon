@@ -362,6 +362,10 @@ hr {
 
 /* GROUPS PAGE */
 
+#current-groups i {
+  font-size: 150px;
+}
+
 #referal-form a:hover {
   background: #fff;
   border: 2px solid rgb(117, 141, 167);
@@ -433,7 +437,6 @@ hr {
 
 /* CONTACT-FORM */
 
-/* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 select,
 textarea {
@@ -447,26 +450,14 @@ textarea {
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
-input[type="submit"] {
-  background: rgb(39, 16, 167);
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
-  background-color: #ffffff;
-  color: rgb(39, 16, 167);
-  border: 1px solid rgb(39, 16, 167);
-}
-
-/* Add a background color and some padding around the form */
 #container-contact {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff !important;
+  border: 2px solid #007bff;
+  color: #007bff !important;
 }
