@@ -377,11 +377,11 @@ hr {
   font-size: 150px;
 }
 
-#referal-form a {
+.btn-gray {
   border: 2px solid rgb(117, 141, 167);
 }
 
-#referal-form a:hover {
+.btn-gray:hover {
   background: #fff;
   border: 2px solid rgb(117, 141, 167);
   color: rgb(117, 141, 167) !important;
