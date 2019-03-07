@@ -466,6 +466,11 @@ hr {
   margin-right: 5px;
 }
 
+#trustees-images img {
+  width: 200px;
+  height: 200px;
+}
+
 /* CONTACT PAGE  */
 
 /*  HEADER */
