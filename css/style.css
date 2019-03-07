@@ -127,6 +127,15 @@ i:hover {
   cursor: pointer;
 }
 
+#home-icons a {
+  border: 2px solid rgb(52, 39, 82);
+}
+
+#home-icons a:hover {
+  background: #fff;
+  color: rgb(52, 39, 82) !important;
+}
+
 #training h2 {
   font-size: 47px;
 }
