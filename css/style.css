@@ -1,6 +1,9 @@
-body * {
-  text-align: center;
+body {
   box-sizing: border-box;
+}
+
+body {
+  text-align: center;
 }
 
 h1 {
@@ -158,6 +161,7 @@ i:hover {
 }
 
 hr {
+  border-top: none;
   border-bottom: 1px solid black;
   width: 75%;
 }
@@ -390,8 +394,9 @@ hr {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.carousel-item {
-  height: 300px;
+#testimonials-header .carousel-item {
+  margin-bottom: 50px;
+  width: 400px;
 }
 
 #testimonial-slider img {
@@ -403,7 +408,11 @@ hr {
   color: #000;
 }
 
-#contact-btn:hover {
+.btn-hover-outline {
+  border: 2px solid #007bff;
+}
+
+.btn-hover-outline:hover {
   background-color: #fff !important;
   border: 2px solid #007bff;
   color: #007bff !important;
@@ -456,6 +465,9 @@ textarea {
   padding: 20px;
 }
 
+input[type="submit"] {
+  border: 2px solid #007bff;
+}
 input[type="submit"]:hover {
   background-color: #fff !important;
   border: 2px solid #007bff;
