@@ -37,6 +37,8 @@ h2 {
   background: #dc0e22;
 }
 
+/* BUTTONS */
+
 .btn-gray {
   border: 2px solid rgb(117, 141, 167);
 }
@@ -249,11 +251,11 @@ hr {
 }
 /* END OF LIGHTBOX */
 
-/* ACCORDION */
-
-/* ---END---- */
-
 /* HOME PAGE QUESTIONS AND ANSWERS */
+
+#questions-and-answers {
+  background: rgb(52, 39, 82) !important;
+}
 
 #collapseOne,
 #collapseTwo,
@@ -269,10 +271,6 @@ hr {
 
 #questions-and-answers h3 {
   font-size: 47px;
-}
-
-#questions-and-answers {
-  background: #5c747a;
 }
 
 #footer hr {
