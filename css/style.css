@@ -224,6 +224,14 @@ hr {
   position: relative;
 }
 
+#home-lightbox a > img:hover {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  opacity: 0.5;
+}
+
 #home-lightbox h2 {
   font-size: 47px;
 }
