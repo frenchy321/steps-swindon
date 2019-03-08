@@ -37,6 +37,16 @@ h2 {
   background: #dc0e22;
 }
 
+.btn-gray {
+  border: 2px solid rgb(117, 141, 167);
+}
+
+.btn-gray:hover {
+  background: #fff;
+  border: 2px solid rgb(117, 141, 167);
+  color: rgb(117, 141, 167) !important;
+}
+
 /* HOME-PAGE */
 
 nav a {
@@ -232,8 +242,10 @@ hr {
   opacity: 0.5;
 }
 
-#home-lightbox h2 {
+#lightbox-header h2 {
   font-size: 47px;
+  min-height: 200px;
+  background-color: rgb(52, 39, 82);
 }
 /* END OF LIGHTBOX */
 
@@ -394,16 +406,6 @@ hr {
 
 #current-groups i {
   font-size: 150px;
-}
-
-.btn-gray {
-  border: 2px solid rgb(117, 141, 167);
-}
-
-.btn-gray:hover {
-  background: #fff;
-  border: 2px solid rgb(117, 141, 167);
-  color: rgb(117, 141, 167) !important;
 }
 
 #testimonials-header {
