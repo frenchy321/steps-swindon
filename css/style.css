@@ -275,7 +275,7 @@ hr {
   background: #5c747a;
 }
 
-#home-footer hr {
+#footer hr {
   border-bottom: 1px solid #fff;
 }
 
@@ -286,7 +286,7 @@ hr {
   cursor: pointer;
 }
 
-#home-footer i {
+#footer i {
   font-size: 30px;
   margin-left: 20px;
   float: right;
