@@ -49,7 +49,7 @@ $(function() {
   var quoteTimer = setInterval(changeQuote, 5000);
 });
 
-// CAROUSELS ( HOME AND GROUPS)
+// CAROUSELS (HOME AND GROUPS)
 
 $(".carousel").carousel({
   interval: 4000
@@ -74,7 +74,7 @@ $(function() {
   });
 });
 
-// QUESTIONS-AND-ANSWERS-SECTION
+// QUESTIONS-AND-ANSWERS
 
 $(function() {
   $("#questions-and-answers").css({ background: "#2710a7" });
@@ -121,7 +121,6 @@ $(function() {
 });
 
 // Level 1 - when the JS file is evaluated
-
 
 // ABOUT PAGE
 
