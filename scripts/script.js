@@ -82,7 +82,7 @@ $(function() {
 });
 
 $(function() {
-  $("#somecomponent").locationpicker();
+  $("#google-map").locationpicker();
 });
 
 // CONTACT-FORM
@@ -122,9 +122,6 @@ $(function() {
 
 // Level 1 - when the JS file is evaluated
 
-// SCROLL-SPY
-
-$("body").scrollspy({ target: "#list-example" });
 
 // ABOUT PAGE
 
