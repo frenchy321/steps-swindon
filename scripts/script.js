@@ -111,8 +111,8 @@ $(function() {
     });
 
     if (!isValid) {
+      e.preventDefault();
     }
-    e.preventDefault();
 
     // Level 3 - when jQuery tells us that a form submit event has happened
   });
