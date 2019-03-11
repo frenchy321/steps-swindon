@@ -97,7 +97,7 @@ $(function() {
 $(function() {
   // Level 2 - when jQuery tells us that the document is ready
 
-  $("#container-contact form").submit(function(e) {
+  $("#contact-form").submit(function(e) {
     // Level 3 - when jQuery tells us that a form submit event has happened
     var textInputs = $(this).find("input[type='text'], textarea");
     let isValid = true;
