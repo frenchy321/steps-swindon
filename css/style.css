@@ -356,6 +356,7 @@ hr {
   background-position: 0 0;
   position: relative;
   background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
   min-height: 400px;
 }
@@ -411,6 +412,7 @@ hr {
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
+  background-position: top center;
   background-size: cover;
   min-height: 400px;
 }
@@ -457,6 +459,8 @@ hr {
 }
 
 .slide-link > a {
+  position: relative;
+  display: inline-block;
   transition: background-color 0.3s;
 }
 
@@ -468,11 +472,13 @@ hr {
   background: rgb(52, 39, 82);
   transition: width 0.3s;
   text-decoration: none;
-  margin-left: 90px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
 }
 
 .slide-link a:hover::after {
-  width: 60%;
+  width: 100%;
   text-decoration: none;
 }
 
@@ -500,6 +506,7 @@ hr {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   min-height: 400px;
 }
 #contact-us::before {
