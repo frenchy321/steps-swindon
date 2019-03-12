@@ -496,6 +496,15 @@ hr {
   height: 200px;
 }
 
+#companies .fa-facebook {
+  font-size: 100px;
+}
+
+.facebook-wrapper:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
 /* CONTACT PAGE  */
 
 /*  HEADER */
