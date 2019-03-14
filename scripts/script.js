@@ -55,7 +55,7 @@ $(".carousel").carousel({
   interval: 4000
 });
 
-// Get the current year for the copyright ?????????????????
+// Get the current year for the copyright
 
 $("#year span").text(new Date().getFullYear());
 
@@ -92,13 +92,11 @@ $(function() {
 // Then highlight the empty input in red
 // ...and don't let the form submit
 
-// Level 1 - when the JS file is evaluated
-
 $(function() {
-  // Level 2 - when jQuery tells us that the document is ready
+  
 
   $("#contact-form").submit(function(e) {
-    // Level 3 - when jQuery tells us that a form submit event has happened
+    
     var textInputs = $(this).find("input[type='text'], textarea");
     let isValid = true;
     textInputs.each(function(index) {
@@ -114,13 +112,11 @@ $(function() {
       e.preventDefault();
     }
 
-    // Level 3 - when jQuery tells us that a form submit event has happened
+  
   });
 
-  // Level 2 - when jQuery tells us that the document is ready
+  
 });
-
-// Level 1 - when the JS file is evaluated
 
 // ABOUT PAGE
 

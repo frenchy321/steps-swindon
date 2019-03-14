@@ -58,6 +58,7 @@ nav a {
 
 .navbar-brand {
   font-size: 30px;
+  font-family: "Segoe UI";
 }
 
 #home-header {
@@ -451,6 +452,14 @@ hr {
   color: #007bff !important;
 }
 
+/* GROUPS PAGE MEDIA QUERIES */
+
+@media screen and (max-width: 500px) {
+  #testimonials-header .carousel-item {
+    display: none;
+  }
+}
+
 /*  SUPPORTERS PAGE */
 
 .slide-link a:hover {
@@ -496,8 +505,13 @@ hr {
   height: 200px;
 }
 
+.facebook-wrapper {
+  color: #3b5998;
+}
+
 #companies .fa-facebook {
   font-size: 100px;
+  color: #3b5998;
 }
 
 .facebook-wrapper:hover {
