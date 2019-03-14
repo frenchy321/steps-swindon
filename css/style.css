@@ -1,8 +1,5 @@
 body {
   box-sizing: border-box;
-}
-
-body {
   text-align: center;
 }
 
@@ -274,6 +271,8 @@ hr {
   font-size: 47px;
 }
 
+/* FOOTER */
+
 #footer hr {
   border-bottom: 1px solid #fff;
 }
@@ -292,6 +291,10 @@ hr {
 }
 
 #top-footer-text .fab:hover {
+  color: white;
+}
+
+#footer a {
   color: rgba(233, 219, 219, 0.747);
 }
 
