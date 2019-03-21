@@ -269,7 +269,16 @@ hr {
 
 #collapseOne,
 #collapseTwo,
-#collapseThree .card-body {
+#collapseThree,
+#collapseFour,
+#collapseFive,
+#collapseSix,
+#collapseSeven,
+#collapseEight,
+#collapseNine,
+#collapseTen,
+#collapseEleven,
+#collapseTwelve .card-body {
   background: rgb(39, 16, 167);
   color: #fff;
 }
@@ -303,11 +312,11 @@ hr {
 }
 
 #top-footer-text .fab:hover {
-  color: white;
+  color: rgba(233, 219, 219, 0.747);
 }
 
 #footer a {
-  color: rgba(233, 219, 219, 0.747);
+  color: #fff;
 }
 
 #top-footer-text a > p:hover {
@@ -497,6 +506,10 @@ hr {
 
 #companies i {
   margin-right: 5px;
+}
+
+#volunteers li {
+  list-style-type: none;
 }
 
 #trustees-images img {
