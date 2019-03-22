@@ -353,6 +353,9 @@ hr {
   #top-footer-text p {
     float: none;
   }
+  #footer a:hover {
+    text-decoration: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -366,6 +369,9 @@ hr {
   #quote-icon {
     font-size: 20px;
     margin-top: 0px;
+  }
+  #footer a {
+    display: inline-block;
   }
 }
 
