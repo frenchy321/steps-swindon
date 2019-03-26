@@ -72,13 +72,14 @@ nav a {
 
 #home-header {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/step-header-img.jpg);
+    url(../images/hero-pic.jpg);
   background-size: cover;
   background-position: bottom;
 }
 
 #home-header h1 {
   font-size: 90px;
+  font-family: "Segoe UI";
   color: #fff;
 }
 
