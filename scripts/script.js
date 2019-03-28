@@ -1,21 +1,3 @@
-// TEST
-
-/*$(function() {
-  $("#home-icons i").on("click", function() {
-    $(".expand").slideToggle(2000);
-  });
-}); */
-
-/*$(function() {
-  var items = $("i");
-
-  items.on("click", function() {
-    $(this)
-      .find("p")
-      .slideToggle(500);
-  });
-});*/
-
 // HOME-ICONS-SLIDER
 
 $(function() {
@@ -74,12 +56,7 @@ $(function() {
   });
 });
 
-// QUESTIONS-AND-ANSWERS
-
-$(function() {
-  $("#questions-and-answers").css({ background: "#2710a7" });
-  $("#questions-and-answers h3").css({ color: "#fff" });
-});
+// GOOGLE-MAP
 
 $(function() {
   $("#google-map").locationpicker();
@@ -87,16 +64,8 @@ $(function() {
 
 // CONTACT-FORM
 
-// When you submit the form
-// If any of the input boxes or textareas are empty
-// Then highlight the empty input in red
-// ...and don't let the form submit
-
 $(function() {
-  
-
   $("#contact-form").submit(function(e) {
-    
     var textInputs = $(this).find("input[type='text'], textarea");
     let isValid = true;
     textInputs.each(function(index) {
@@ -111,16 +80,8 @@ $(function() {
     if (!isValid) {
       e.preventDefault();
     }
-
-  
   });
-
-  
 });
-
-// ABOUT PAGE
-
-// LATEST NEWS
 
 // ABOUT MODAL PLUGIN
 
