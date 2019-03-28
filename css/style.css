@@ -445,6 +445,15 @@ hr {
   min-height: 400px;
 }
 
+#testimonials-header blockquote {
+  font-size: 15px;
+}
+
+#testimonials-header blockquote > i {
+  font-size: 15px;
+  margin-top: 0;
+}
+
 #testimonials-header::before {
   content: "";
   position: absolute;
@@ -471,8 +480,14 @@ hr {
 
 /* GROUPS PAGE MEDIA QUERIES */
 
-@media screen and (max-width: 500px) {
-  #testimonials-header .carousel-item {
+@media screen and (max-width: 768px) {
+  #testimonials-header blockquote > i {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #testimonials-header blockquote {
     display: none;
   }
 }
