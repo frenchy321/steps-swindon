@@ -446,7 +446,7 @@ hr {
 }
 
 #testimonials-header blockquote {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #testimonials-header blockquote > i {
@@ -541,9 +541,13 @@ hr {
   height: 200px;
 }
 
-.facebook-wrapper {
+#our-supporters-facebook {
   color: #3b5998;
   font-size: 100px;
+}
+
+#our-supporters-facebook > h3 {
+  color: #3b5998;
 }
 
 #companies .fa-facebook {
