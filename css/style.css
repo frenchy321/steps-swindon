@@ -71,21 +71,36 @@ nav a {
 }
 
 #home-header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/hero-pic.jpg);
+  background-image: url("../images/hero-pic.jpg");
+  background-attachment: static;
+  background-position: 0 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
-  background-position: bottom;
+  min-height: 400px;
+}
+#home-header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 #home-header h1 {
   font-size: 90px;
   font-family: "Segoe UI";
   color: #fff;
+  position: relative;
 }
 
 #home-header h2 {
   font-size: 40px;
   font-family: "Aleo", serif;
+  position: relative;
 }
 
 /* TILE-SLIDER-PLUGIN */
@@ -127,6 +142,10 @@ nav a {
 }
 
 /* END-OF-PLUGIN */
+
+#activities p {
+  font-size: 18px;
+}
 
 #image-slider h2 {
   font-size: 47px;
@@ -326,8 +345,9 @@ hr {
 /*  MEDIA QUERIES - HOME PAGE */
 
 @media screen and (max-width: 500px) {
-  .quote-slip {
-    display: none;
+  #donate a {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -335,6 +355,7 @@ hr {
   #activities p {
     margin-bottom: 0;
   }
+
   #home-icons i {
     margin-top: 2rem;
   }
@@ -381,18 +402,13 @@ hr {
 /* ABOUT PAGE */
 
 #about-hero {
-  height: 550px;
-}
-
-#about-hero {
-  background-image: url("../images/group-fun.jpg");
+  background-image: url("../images/hero-image.jpg");
   background-attachment: fixed;
   background-position: 0 0;
   position: relative;
   background-repeat: no-repeat;
-  background-position: bottom bottom;
   background-size: cover;
-  min-height: 400px;
+  min-height: 500px;
 }
 #about-hero::before {
   content: "";
@@ -405,7 +421,7 @@ hr {
 }
 
 #about-hero p {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 #about-header {
@@ -414,9 +430,8 @@ hr {
 
 /* STAFF AND VOLUNTEERS */
 
-#staff-and-volunteers img {
-  height: 200px;
-  width: 200px;
+#staff p {
+  font-size: 23px;
 }
 
 /* LATEST NEWS */
@@ -425,14 +440,34 @@ hr {
   min-height: 300px;
 }
 
+#latest-news p {
+  font-size: 23px;
+}
+
 .blue-link {
   color: #007bff;
 }
 
+#latest-news i {
+  font-size: 100px;
+}
+
+#latest-news a {
+  color: #3b5998;
+}
+
 /* GROUPS PAGE */
+
+#what-we-do p {
+  font-size: 23px;
+}
 
 #current-groups i {
   font-size: 150px;
+}
+
+.header-text {
+  font-size: 23px;
 }
 
 #testimonials-header {
@@ -493,6 +528,10 @@ hr {
 }
 
 /*  SUPPORTERS PAGE */
+
+#our-supporters-header p {
+  font-size: 23px;
+}
 
 .slide-link a:hover {
   background-color: none;
@@ -560,6 +599,12 @@ hr {
   text-decoration: none;
 }
 
+/* LINK PAGE */
+
+#links-header p {
+  font-size: 23px;
+}
+
 /* CONTACT PAGE  */
 
 /*  HEADER */
@@ -570,7 +615,7 @@ hr {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   min-height: 400px;
 }
 #contact-us::before {
@@ -584,7 +629,7 @@ hr {
 }
 
 #contact-us p {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 /* CONTACT-FORM */
@@ -615,4 +660,12 @@ input[type="submit"]:hover {
   background-color: #fff !important;
   border: 2px solid #007bff;
   color: #007bff !important;
+}
+
+/* CONTACT MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+  #google-map {
+    margin-bottom: 4em;
+  }
 }
