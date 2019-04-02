@@ -59,7 +59,15 @@ $(function() {
 // GOOGLE-MAP
 
 $(function() {
-  $("#google-map").locationpicker();
+  if ($.prototype.locationpicker) {
+    $("#google-map").locationpicker({
+      location: {
+        latitude: 51.5655819,
+        longitude: -1.7444095
+      },
+      enableReverseGeocode: false
+    });
+  }
 });
 
 // CONTACT-FORM
@@ -82,16 +90,3 @@ $(function() {
     }
   });
 });
-
-// ABOUT MODAL PLUGIN
-
-// Instantiate new modal
-var modal = new Custombox.modal({
-  content: {
-    effect: "fadein",
-    target: "#modal"
-  }
-});
-
-// Open
-modal.open();

@@ -307,6 +307,10 @@ hr {
   color: #fff;
 }
 
+#questions-and-answers .card-header .btn-link {
+  white-space: normal;
+}
+
 #questions-and-answers h3 {
   font-size: 47px;
 }
@@ -486,7 +490,9 @@ hr {
 
 #testimonials-header blockquote > i {
   font-size: 20px;
-  margin-top: 0;
+  top: -10px;
+  position: relative;
+  margin-right: 10px;
 }
 
 #testimonials-header::before {
@@ -636,6 +642,11 @@ hr {
 
 #contact-us p {
   font-size: 23px;
+}
+
+#contact-info i {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 /* CONTACT-FORM */
