@@ -333,6 +333,9 @@ hr {
   margin-left: 20px;
   float: right;
 }
+#footer .footer-social-icons a:first-child i {
+  margin-left: 0;
+}
 
 #top-footer-text .fab:hover {
   color: rgba(233, 219, 219, 0.747);
@@ -352,6 +355,10 @@ hr {
   #donate a {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  #top-footer-text p {
+    margin-left: 0;
   }
 }
 
