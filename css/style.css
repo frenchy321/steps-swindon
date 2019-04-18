@@ -208,14 +208,6 @@ i:hover {
   margin-top: -30px;
 }
 
-#denim-girl-img {
-  min-height: 900px;
-}
-
-#book-teacher-img {
-  opacity: 0.8;
-}
-
 hr {
   border-top: none;
   border-bottom: 1px solid black;
@@ -334,7 +326,7 @@ hr {
   float: right;
 }
 #footer .footer-social-icons a:first-child i {
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 #top-footer-text .fab:hover {
@@ -359,6 +351,9 @@ hr {
 
   #top-footer-text p {
     margin-left: 0;
+  }
+  .footer-social-icons {
+    padding-left: 0px;
   }
 }
 
@@ -397,16 +392,13 @@ hr {
   .quote-slider {
     font-size: 15px;
   }
-  #teacher-slider {
-    margin-bottom: auto;
-    margin-top: auto;
-  }
+
   #quote-icon {
     font-size: 20px;
     margin-top: 0px;
   }
   #footer a {
-    display: inline-block;
+    display: block;
   }
 }
 
