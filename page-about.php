@@ -1,0 +1,268 @@
+<?php get_header(); ?>
+
+<?php if (have_posts()): while (have_posts()): the_post(); ?>
+
+  <!-- HEADER -->
+
+  <section id="about-hero" class="d-flex align-items-center justify-content-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-3 font-weight-bold">About Us</h1>
+          <p class="pt-5">STEP is a registered Charity (#1176672) Providing a safe and supportive environment for children and young people aged between 7 and 18.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+
+  <section id="what-we-do" class="py-5 d-flex bg-blue-gray text-white justify-content-center align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 header-text">
+          <h2 class="font-weight-bold pb-4">What Is STEP</h2>
+          <p>STEP is a registered charity, providing a safe and supportive environment for children and young people aged 7 - 18, who are experiencing isolation and exclusion due to either their lack of social skills, personal circumstances or poverty, living in Swindon or the wider community. We will work creatively using therapeutic group work to enable children and young people to make a positive contribution to society through the delivery of life and social skills, with recognition of achievement through accreditation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container py-5">
+      <div class="row">
+          <div class="col-12 text-left">
+              <h3 class="mt-5">To parents/carers</h3>
+              <p class="mt-4">Our first priority is your child's welfare and therefore there may be occasions when our concern about your child means that we have to consult other agencies before we contact you. The procedures we follow have been laid down by the South West Child Protection Procedures www.swcpp.org.uk. If you want to know more about this procedure, please speak to the designated person for Child Protection, Paul Dobson - Project Manager.</p>
+            </div>
+            <div class="col-12 text-left">
+                <h3 class="mt-5">STEP is for young people who would benefit from on-going group work</h3>
+                <ul class="mt-4">
+                  <li>Young people attend a 2 hour session each week around specific themes such as anger management, building relationships and keeping safe
+                    </li>
+                    <li>STEP also runs activities in the summer such as sports days and barbeques
+                      </li>
+                </ul>
+              </div>
+              <div class="col-12 text-left">
+                  <h3 class="mt-5">The Organisation</h3>
+                  <p class="mt-4">STEP is a voluntary organisation and a registered charity (number 1176672). Our staff team, volunteers and young people are involved in STEP because they choose to be. STEP maintains a small and well qualified team of 8 paid professionals whom aid the planning for the future of STEP, administer the projects' and provide advice and support for service-users, all overseen by a Management Committee of 5 adult volunteers.
+                    </p>
+                </div>
+                <div class="col-12 text-left">
+                    <h3 class="mt-5">The Service
+                      </h3>
+                    <p class="mt-4">STEP works with young people to help them build essential skills and to be able to manage their own lives. These skills include assertiveness, anger management, self-confidence/esteem, communication and teamwork. STEP provides a range of projects that use activities young people want and agree beforehand, to look at, and deal with, significant issues in their lives.
+                      </p>
+                      <p>STEP believes that a small group of young people, staff and adult volunteers meeting on a regular basis is one of the most beneficial environments for young people to discover and nurture their abilities. STEP ultimately believes therefore, that a climate of trust and confidentiality is essential for the provision of its service, and so a set of clear boundaries are adhered to.
+                        </p>
+                  </div>
+                  <div class="col-12 text-left">
+                      <h3 class="mt-5">The Young People
+                        </h3>
+                      <p class="mt-4">STEP appreciates each young person as a unique individual and a valuable member of the Project. STEP recognises that young people from the age of ten are in an important developmental stage in their lives and therefore respects their ideas and decisions. STEP works with young people to develop their voice both within the Project and as members of the wider community.
+                        </p>
+                    </div>
+                    <div class="col-12 text-left">
+                        <h3 class="mt-5">The Adults
+                          </h3>
+                        <p class="mt-4">STEP recognises the influence and responsibilities of adults as role models. The actions and attitudes of adult workers directly affect the efficiency of the service. STEP believes that regular supervision and training sessions for all workers and volunteers are essential to ensure the continued vitality and success of the Project.
+                          </p>
+                          <p>The Management Committee, the volunteers and the staff all meet regularly. This gives everyone the opportunity to share experiences and learn more about themselves as individuals and as part of a team.
+                        </p>
+                      </div>
+                      <div class="col-12 text-left">
+                        
+                        <h3 class="mt-5">The Wider Context</h3>
+                          <p class="mt-4">STEP acknowledges the important responsibilities as an employer and a service provider to all - regardless of gender, race, colour, class, background, religion, status or sexual orientation.
+                          </p>
+                          <p>STEP also appreciates the valuable contribution of other agencies to the welfare of young people, their parents/carers and their families.
+                          </p>
+                          <p>STEP is an independent charity governed by a constitution, an aim and objectives. These provide essential terms of reference within which the Project can offer its service.
+                          </p>
+                          <p class="font-weight-bold">To whom does STEP provide a service?
+                          </p>
+                          <p>Young men and young women aged 7 to 18 years at the time of entry into the project. They will have displayed one or more of the following difficulties:
+                          </p>
+                          <ul>
+                          <li>Low confidence/self-esteem
+                            </li>
+                          <li>Victim of bullying
+                            </li>
+                          <li>Unable to safely manager their anger or express their emotions
+                            </li>
+                          <li>Making un-safe choices / not understanding the consequences of their actions
+                            </li>
+                          <li>Isolation and/or exclusion
+                            </li>
+                          <li>On the fringes of offending behaviour
+                            </li>
+                          <li>Lack of peer group involvement and positive activities
+                            </li>
+                          <li>Behavioural issues
+                            </li>
+                          <li>Needing time for themselves e.g. a break from caring responsibilities
+                            </li>
+                          <li>Lack of positive role models
+                            </li>
+                          <li>Problems at home e.g. family health, financial/housing worries
+                            </li>
+                          <li>Struggling at school / learning difficulties
+                            </li>
+                          <li>Physical impairment
+                            </li>
+                          <li>Relationship / trust issues
+                            </li>
+                        </ul>
+                        <p>STEP is designed to help young people needing additional support in their lives as a diversion from offending and isolation.
+                          </p>
+                      <p>STEP is not an appropriate service for young people needing a greater level of support or one-to-one work.  
+                </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STAFF AND VOLUNTEERS -->
+
+      <section id="staff" class="py-5 d-flex bg-blue-gray text-white justify-content-center align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 header-text">
+                <h2 class="font-weight-bold pb-4">Staff</h2>
+                <p>STEP is made up of a small team of full and part-time staff who organise and lead the groups. They are supported by dedicated volunteers who kindly give their time to help in sessions, and our Trustees who supervise the running of STEP as a whole.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <section id="staff-and-volunteers" class="py-5 d-flex text-dark justify-content-center align-items-center">
+        <div class="container">
+          <div class="row py-5 text-left">
+            <div class="col-12">
+            <h3>Johanna Bryant - Project Director</h3>
+            <p>I have lived in Swindon all my life and I am passionate that Swindon’s children and young people should have the opportunity to reach their full potential, educationally, socially and emotionally and that’s why I am dedicated to ensuring STEP has the funds necessary to support as many children and young people as possible.
+              <br>
+              I have worked at STEP for 18 years and in that time have seen how hard everyone connected to this Charity have worked to make it the wonderful, supportive, nurturing and high quality service it is today.
+            </p>
+            <h3>Paul Dobson – Project Manager
+              </h3>
+            <p>I have been a member of the STEP team for over 15 years. My role as Project Manager includes being responsible for the smooth running of all our projects, managing the Charity’s finances, leading on our participation work to ensure the voice of children and young people is head by decision makers across the borough of Swindon, as well as building relationships with partner organisations in the statutory and voluntary sector to ensure we all provide the best possible service for our children & young people. 
+            </p>
+            <h3>Amy Law – Office Manager</h3>
+              <p>I have been at STEP since 2002 and my job and the organisation has changed incredibly during that time. My role is always varied - I am responsible for the work 'behind the scenes' in the office; everything needed for the day-to-day running such as administering new referrals, inviting young people to groups, speaking to referrers and parent/carers, document proofing, maintaining and organising resources, insurances etc etc!
+                <br>
+                I have a BSc degree in Social Sciences and am NOCN Level 3 qualified in Youth Work so have also written and run lots of different sessions (a long time ago now!) and still like to help the project workers with resourcing activities that they very cleverly come up with. Seeing and hearing the stories of young people who first come to us compared to when they leave, and how they progress in the future, is extremely rewarding, and adapting to the changes in focus of referrals keeps my role really interesting.
+              </p>
+              <h3>Tracey Dobson – Project Co-ordinator</h3>
+              <p>I joined STEP 12 years ago whilst on a work placement studying for my Degree in Youth Work. After completing my Degree, I was asked to join the team as a project worker, where I wrote and delivered many Evening and Saturday groups. After spending many years developing my skills, I have worked my way up to my current role of Project Co-ordinator, overseeing project staff and the day to day running of the all interventions we offer. I am qualified to teach the Level 2 and 3 Diploma in Youth Work and lead on all youth work training for our staff team. More recently I have trained as Curriculum Manager for AQA accreditation where I write and moderate all awards that young people complete whilst attending groups. I also co-ordinate our amazing team of volunteers.
+                <br>
+                I am so proud of the work that we do to support all young people who attend our groups and I am equally proud of the fantastic staff team who deliver this work. To relax from my busy workload, I can often be found working in my garden or on my allotment.
+              </p>
+              <h3>Hayley Jackson – Senior Project Worker</h3>
+                <p>I began working with STEP in 2009 after graduating from Bath University with a Degree in Youth Work. I have experience of both writing and delivering the interventions that we offer. I pride myself in building rewarding working relationships with the young people; mutual respect and trust lays the foundations that enable us to deliver the intervention successfully. 
+                  <br>
+                  When session planning, I provide a balance of both practical and therapeutic activities that meet the needs and learning styles of everyone. The activities are chosen and tailored to meet the needs of the group - addressing wide ranging issues that young people face, including behavioural issues that make learning and socialising more challenging. I negotiate preventative behavioural management skills that promote responsibility and understanding of underlying behavioural triggers.
+                  <br>
+                  As much as I love my work, it can at times be emotionally challenging so I balance this by enjoying Yoga and Mindfulness classes along with spending quality time with my family.
+                </p>
+                <h3>Lucy Howell – Project Worker</h3>
+                <p>I started work at STEP in 2014. I have never regretted this decision; I work with an incredible and supportive team. I believe every young person should have the opportunity to succeed and I work hard with my colleagues to ensure that all young people build the skills they need to enable them to do this.</p>
+                <h3>Ashleigh Mitchell – Project Worker</h3>
+                  <p>I joined the STEP team 5 years ago as a Project Worker. I deliver therapeutic evening groups and I also work on Saturdays to support young people with mild to moderate learning difficulties. Seeing how much progress young people make during their time in groups is rewarding and makes me feel incredibly proud to be part of the process to facilitate the positive changes they make.</p>
+                  <h3>Sam Wadey-Smith – Project Worker</h3>
+                  <p>I joined the STEP team as a Project Worker in 2017.  I deliver Evening Groups and am passionate about helping all young people to address the issues that may be adversely affecting them and gives them the skills which will enable them to reach their full potential. My background is in sports and football coaching; using these skills within my practice has been beneficial when working with young people who find it difficult to engage in therapeutic group work.</p>
+                  <h3>Elouise Turner - Session Worker</h3>
+                    <p>I currently work on Saturdays as a Project Session Worker, supporting young people with mild to moderate learning disabilities. I also provide 1:1 support within evening groups when required. My other job is supporting young people with additional learning / behavioral needs at the ARC.</p>
+                    <h3>Kelly Hill - Session Worker</h3>
+                      <p>I have been a session worker for some years at STEP, where I support young people with additional learning needs on Saturdays.</p>
+                 
+                <div class="text-left pb-5">
+                <h4>Jean Dowland – Mini Bus Driver</h4>
+                  <br>
+                  <h4>Peter Richardson - Mini Bus Driver</h4>
+                </div>
+                <hr>
+                <div class="text-center">
+                <h2 class="font-weight-bold mt-5">Volunteers</h2>
+                <p class="header-text py-4">STEP has a strong team of highly valued volunteers who support Project Workers in their group work delivery as well as giving individual support to young people who attend. Our current volunteers are: Rob, Helen, Teresa, Duncan, Marie, Nayah, Kenny, Jan, Aaron, Amy, Julie and Nichole.
+                  <br>
+                <h5 class="text-muted mb-5">Please see our volunteer section for more information or to download an application form.</h5>
+                </p>
+                <div class="row">
+                  <div class="col-md-4 mx-auto">
+                    <h3 class="mb-4">Want To Join In!</h3>
+                <a href="documents/Application.vol.docx" download class="btn btn-lg bg-blue-gray btn-gray text-white text-center">Download</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  </section>
+
+  <!-- LATEST NEWS -->
+
+  <section id="latest-news" class="pb-5 text-white">
+     <div class="bg-blue-gray py-5">
+      <div class="container">
+        <div class="col-12 header-text">
+          <h2 class="font-weight-bold pb-4">Latest News</h2>
+          <p>Please check back here regularly as we update on what has been happening at STEP, and the achievements made by young people.
+              Follow our ‘Friends of STEP’ Facebook page as well for all the latest news.</p>
+        </div>
+      </div>
+    </div>
+      <div class="row d-flex py-5 align-items-end justify-content-center">
+        <div class="col-md-8 pt-5">
+            <a href="https://www.facebook.com/FriendsOfStep/?ref=aymt_homepage_panel" class="facebook-wrapper">
+          <h3 class="font-weight-bold">Check Out Latest News On Facebook!</h3>
+            <i class="fab fa-facebook mt-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <hr class="mt-0">
+
+  <!-- CONTACT DETAILS -->
+
+  <section id="contact-info" class="py-5">
+    <div class="container">
+      <h2 class="pb-5">Contact Us</h2>
+      <p class="header-text pb-5">For any further information about our groups or if you want to ask us a question, please get in touch. We welcome all comments and feedback to ensure we are providing the best service possible.</p>
+      <div class="row">
+        <div class="col-md-6">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+44-1793-714042" rel="nofollow">
+                <h4>Tel:</h4>
+            <p class="contact-num">01793 714042</p>
+          </a>
+          <hr class="my-4">
+          <i class="fas fa-car"></i>
+          <a href="/contact/#google-map">
+            <h4>Visit Us:</h4>
+          </a>
+          <p> Nythe Centre, The Drive, Nythe, Swindon SN3 3RR</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fas fa-envelope"></i>
+          <a href="/contact/">
+            <h4>Email:</h4>
+          </a>
+          <p>swindonstep@aol.com</p>
+          <hr class="my-4">
+          <i class="far fa-comment"></i>
+          <a href="/contact/">
+            <h4>Contact:</h4>
+          </a>
+          <p>Give Feedback</p>
+        </div>
+      </div>
+      <a href="/contact/" class="btn btn-primary btn-lg btn-hover-outline mt-4">Contact Us</a>
+    </div>
+  </section>
+<?php endwhile; endif; ?>
+
+<?php get_footer();

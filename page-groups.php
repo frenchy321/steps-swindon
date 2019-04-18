@@ -1,0 +1,415 @@
+<?php get_header(); ?>
+
+<?php if (have_posts()): while (have_posts()): the_post(); ?>
+    
+      <!-- HEADER -->
+
+     <section id="what-we-do" class="py-5 d-flex deep-purple-bg text-white justify-content-center align-items-center">
+       <div class="container">
+       <div class="row">
+         <div class="col-12 header-text">
+           <h1 class="pb-4 font-weight-bold display-3">Groups</h1>
+           <p>STEP works with more than 200 children and young people each year, providing support and life management skills to some of the most vulnerable in our community.</p>
+         </div>
+       </div>
+      </div>
+     </section>
+
+     <!-- CURRENT GROUPS -->
+
+     <section id="current-groups" class="py-5 d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header-text">
+            <h2 class="py-4 font-weight-bold">Current Groups</h2>
+            <p class="header-text">Here Is A List Of Groups That We Currently Have Available.</p>
+          </div>
+        </div>
+        <div class="row pb-3 text-left">
+          <div class="col-12">
+              <h3 class="mt-5">Therapeutic Service – Evening Groups</h3>
+              <p class="mt-4">Young people aged 9 - 18 years old complete a 10 week programme, with progress reviewed regularly to see whether they need further work. Sessions are tailor-made to meet the identified needs of young people, who each set their own targets to work on. Key therapeutic aims include; Managing anger, Stress management skills, Managing risk, Dealing with difficult situations, Communication skills, Working with others (teamwork), Friendships / Peer pressures, Keeping safe (home, school, community), Healthy Lifestyles (food & exercise), Appreciating your personal qualities / skills (learning to like you for who you are).</p>
+              <p>
+                Young people attend one group per week, 6-8pm. Unfortunately, if a young person is unable to attend on a particular evening, we cannot usually accommodate swapping due to the careful allocation based on group theme, risk, numbers, needs and/or abilities of young people.</p>
+                 <p>
+                At the moment, we are also running a specific 5 STEP’s to well-being group in line with the Government initiative of introducing these simple strategies to your life: Connect – talk and listen to the people around you; your friends and family. Spend time developing these relationships. Be active – find an activity that you enjoy; staying energised enhances your mood. Keep learning – embrace new experiences; new skills can give you a sense of achievement and more confidence...you might surprise yourself! Give – even the smallest act of kindness towards others can count whether it's a smile, a thank you or a compliment. Your time, words and presence often mean more than you think. Take notice—be aware / mindful of the present moment, including your thoughts and feelings, your body and the world around you. Don’t take things for granted, and remember the simple things which make you happy. This can give you a positive outlook when you approach new challenges.</p>
+            </div>
+          <div class="col-12">
+              <h3 class="mt-5">Junior STEP – Evening group</h3>
+              <p class="mt-4">Junior STEP is a 10 week programme to support children aged 7 – 9 years at primary school. The group provides a nurturing, stable and safe environment with the same children on the same evening, with the same workers. This enables children to develop meaningful and trusting relationships with both adult workers and their peers, providing a positive social outlet to make friends, learn new skills, express feelings and build confidence.
+                Children attend one group per week 6-7.30pm</p>
+          </div>
+          <div class="col-12">
+              <h3 class="mt-5">Saturday Group</h3>
+              <p class="mt-4">Daytime group specifically for young people with disabilities aged 7 - 25 years old. Young people attend every other Saturday 11am – 1.30pm. Minibus transport is provided.
+                The project offers a combination of centre-based group work sessions structured by session plans, with activities such as visits to parks, leisure and community facilities. Young people are given the opportunity to participate in sessions using a mixture of discussion, role play, activities and games focusing on the development of identified personal targets. Sport, games, art, drama, music and cooking are used as a framework for delivery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="general-group-header" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+          <h2 class="text-center">General Group Information</h2>
+        </div>
+        </div>
+        <div class="row text-left mt-5">
+          <div class="col-12">
+            <h3 class="mt-3">Boundaries</h3>
+            <p class="mt-4">Every young person is taught the ‘STEP boundaries’, which include no physical contact, show respect, no bullying, confidentiality, taking part etc. These are essential to maintain a safe and supportive environment where young people can be themselves and feel secure. Young people sign to say they will adhere to the boundaries and a large part of being at STEP is to learn how to keep to them - a valuable skill for getting on well in other areas of their lives</p>
+          </div>
+          <div class="col">
+            <h3 class="mt-5">Disciplinary and Reward</h3>
+            <p class="mt-4">STEP uses a disciplinary and reward system as a therapeutic tool. It gives children and young people tangible consequences to their actions to promote positive behaviour and encourage them to find the right solutions to their issues/difficulties.</p>
+            <p>As a reward for meeting targets, good work, regular attendance and remaining within group boundaries, young people are invited to an end of group celebration where certificates are presented and parents/carers and referrers can see the achievements that have been made. There is also the possibility each session to earn a green card for exceptionally good behaviour or significant progress.
+              </p>
+              <p>If a boundary is broken, the disciplinary system works as follows: the young person will firstly receive a verbal warning and be given a reason why. They will also be offered time-out, which means they can spend a few minutes away from the group if they want to, in the designated quiet / chill-out room. If they repeat that behaviour again, they are issued with a yellow card. If they then receive another yellow card at any time, it equates to a red card, and they will be suspended from the group, usually for one week. This gives the young person time to think about their behaviour and commitment to STEP. In the case of dangerous or violent behaviour, a young person will be immediately issued with a red card and usually taken straight home. In some instances, a young person may be asked to leave STEP altogether because their behaviour is too much of a risk or disruption to others.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+     <!-- TRANSPORT DETAILS -->
+
+     <section id="staff-and-volunteers" class="py-5 d-flex text-white justify-content-center align-items-center deep-purple-bg">
+      <div class="container">
+      <div class="row">
+        <div class="col-12 header-text">
+          <h2 class="pb-4 font-weight-bold">Transport Details</h2>
+          <p>We do not provide transport to group, however we do provide transport home afterwards, seeing young people into their door.
+            Currently we are unable to provide transport to the wider Swindon area such as Wroughton, Chiseldon, Highworth, Purton, Wootton Bassett etc, but young people from all these areas are welcome to attend.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERAL FORM -->
+
+    <section id="referal-form" class="py-5">
+        <div class="container">
+          <div class="row d-flex text-white justify-content-center align-items-center text-dark">
+          <div class="col-12 header-text">
+            <h2 class="pb-4 font-weight-bold">Referral Process</h2>
+            <p class="header-text">Children and young people can be referred by an adult who knows them well, for example a social worker, teacher or school nurse. We prefer an Early Help Record (EHR), Initial Assessment or Core Assessment but we do have our own referral form that can be filled out—please request one (contact details overleaf). Once a referral is received, it is assessed and the STEP team will allocate the young person to the project they feel is most appropriate. The project they attend is only confirmed after the first two face-to-face sessions, as we can then be sure it is suitable.</p>
+            </div>
+          <a href="documents/referral-form.docx" download class="my-4 btn btn-lg bg-blue-gray btn-gray text-white">Download</a>
+        </div>
+      </section>
+
+    <!-- TESTIMONIALS -->
+
+    <section id="testimonials-header" class="py-5 d-flex justify-content-center align-items-center text-white">
+      <div class="container">
+      <div class="row">
+        <div class="col-12 header-text">
+          <h2 class="font-weight-bold py-4">Testimonials</h2>
+          <p class="header-text">STEP welcomes feedback from our parents/carers, referrers and stakeholders which in turn helps to shape our service.</p>
+        </div>
+        <div class="col-md-8 text-center py-5 my-5 mx-auto" id="teacher-slider">
+          <div class="quote-slip">
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>STEP have given my child the confidence to try new things and met new people and form friendships with like-minded people.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>Over time STEP has been proven to be the most effective intervention for the young people referred. Swindon would be a much poorer place without STEP.
+            <h5 class="text-white">- Referrer</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>I am now able to talk easier with my child.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>We have a big hectic family, STEP has given my daughter time to focus on herself.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>My son is more understanding towards his family and their feelings.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>Less fighting in school. My daughter is better at walking away from her sister, she will go to her room to avoid arguing. She no longer.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>Communication between us all has improved, we are not afraid to talk about things now.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>STEP has proved to support our students who are experiencing difficulties at home or school. We see how successful referrals have been as well as how positive pupil feedback is.
+            <h5 class="text-white">- Referrer</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>His anger has subsided and he can manage situations better, a happy son means a happier life for us all.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5"><i class="fas fa-quote-left text-secondary"></i>Great Job, thank you. You do everything you can to help, kind, very accommodating and helpful.
+            <h5 class="text-white">- Parent</h5></blockquote>
+            <blockquote class="quote-slider p-5 mt-5"><i class="fas fa-quote-left text-secondary"></i>I consider STEP to be an invaluable service. I have witnessed first-hand the difference attending STEP has made - developing social skills, building resilience, raising self-esteem and building confidence. The staff are professional and it is clear they are committed to make a real difference to the lives of young people.
+            <h5 class="text-white">- Referrer</h5></blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+
+     <section id="questions-and-answers" class="deep-purple-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="py-5 text-white">Frequently Asked Questions</h2>
+              <div class="accordion pb-5" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        So what actually is STEP?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      STEP is a chance for young people aged 10-18 (or 7-9 in Junior STEP) who are having difficulties in their lives, or have specific needs, to take part in a group to work on these issues. The groups involve lots of activities - art, drama, sports, games, cooking etc - that are designed with an underlying theme to help develop life skills such as managing anger, building confidence and dealing with difficult situations. Evening Group programmes last 10 weeks and then the young person will leave STEP. We review everyone in week 7 so if further work is needed, we may be able to offer it.
+                      We also run a Saturday Project for young people with learning disabilities, and holiday activities depending on funding. As with all groups, young people need to be referred and parental consent obtained before they can attend.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How do I get invited to STEP?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      You need to be referred (there is a form to fill in), or we accept an Early Help Record (EHR), be a professional that knows you well. This could be a teacher or social worker for example. We cannot usually accept self referrals or referrals solely from parent/carers, and we do stress that STEP is voluntary so it must be YOUR CHOICE to attend.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What happens once I am referred?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Two STEP workers assess the form and see if STEP is suitable to meet the needs stated, and then which project would be most appropriate. You, your parent/carer and referrer will get a letter to invite you to an introduction session, which is for all new young people to find out more about how STEP works. You may have to wait a while to start depending on when you are referred and how long our waiting list is, but we will get you into the next available group whenever possible. 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Do you provide transport?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      We do not provide transport to group, however we do provide transport home afterwards, seeing young people into their door.
+                      Currently we are unable to provide transport to/from the wider Swindon area such as Wroughton, Chiseldon, Highworth, Purton, Wootton Bassett etc, but young people from all these areas are welcome to attend. 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Is STEP on tonight / this week??
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      As per your invite sent in the post before programmes start, we will always run each week as planned and will make every attempt to let you know if we have to cancel a session. Please ensure we have your up-to-date contact details so that we can do this.
+                      On the rare occasions when groups are cancelled due to adverse weather and access cannot be made to the building, we will post on this website so please check at such times for updates.
+                      If you need to contact a STEP worker during group times or drop-off, please use the mobile - 07531 513086.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Can siblings or friends be in the same group?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Generally, no. Young people are referred to STEP for many different reasons, which can include needing time for themselves to get away from the frictions of home and/or school. This cannot happen if family members, or other people they usually mix with, are there.
+                      Most people when they first come to STEP do not know anyone, which can be a scary prospect. If there are several people there who already know each other, this can be quite intimidating for others and we want to make young people feel at ease and have the chance to make new friends so we think it is better if family/friends do not come together.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSeven">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        How long will I be at STEP?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                    <div class="card-body">
+                      This will usually be 10 weeks for Evening Groups. You will take part in an intensive programme and because you will be with the same worker and the same group, you will really get to know each other and be able to learn lots that you can then take away and use in other areas of your life. 
+                      STEP is a short term intervention programme where the aim is to build young people's skills, knowledge and confidence to be able to cope better and move onto mainstream activities such as a youth club, new hobby, peer mentoring and/or to be part of Swindon Youth Council (search for them on Facebook!)
+                      If you have attended STEP for a while and no longer feel it is for you, please let us know! STEP is voluntary and the service will not be as beneficial to you if you don't want to be there. If you just stop coming, we don't get the chance to get your feedback which could help us make improvements. You can tell your referrer to speak to us, or your parent/carer, and it may be that you have enough activities on or that a different service would be better for you - we can talk this through.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingEight">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        How can I find out the progress of my child whilst they are attending Group?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                    <div class="card-body">
+                      You can call our office during the week and speak to your child’s group worker for an update on how they are progressing or to find out what they are working on in group. Workers will call parents/carers if they need to discuss any issues or to celebrate successes.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingNine">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        Can my child stay on to complete another programme or be re-referred to STEP?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Our aim is for young people to work on their reasons for referral and to build the skills they need during their 10 week intervention. We then advise a period of time after groups have finished for the young person to then put these skills into practice. On occasions if workers feels that a young person needs further support from us we will discuss this with parents/carers prior to them leaving STEP. Re-referrals will be assessed and discussed by workers on a case by case basis.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTen">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        How can I find out more about STEP and keep updated?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                    <div class="card-body">
+                      We have a Friends of STEP Facebook page - please check it out for upcoming events and what we have been up to.
+                      An Annual Report is produced and you can find us on the Charity Commission's website (registered charity number 1176672).
+                      Please check this website from time to time as well (swindonstep.org.uk) for updates, photos and news stories. If you have any questions at any time, please use the Contact Us link at the top to send us an email.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingEleven">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                        How do I give my comments / feedback?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                    <div class="card-body">
+                      In groups, we ask young people on a weekly basis to comment on the sessions they have taken part in and give any feedback they have. Workers keep weekly records (group notes) of how sessions have gone. We ask for verbal and written feedback from parents/carers so that we can report back to our funders, so welcome any comments you may have. We also hold a Celebration Event at the end of each programme, when young people are leaving, where family and referrers are invited to see young people's work, see certificates be presented and young people get the chance to say goodbye.
+                      If you have any comments, suggestions or feedback to give on anything you've read or the service you've received, we would love to hear from you. Please use the Contact Us link to send us an email or call the office directly.
+                      If you would like to register a complaint, please request a Complaints Form and a copy of the Complaints Procedure giving further guidance.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwelve">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed text-white" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                        As an adult, how can I help?
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                    <div class="card-body">
+                      As a registered charity, STEP relies heavily on volunteers to support workers in group sessions delivering face-to-face youth work, and also on our Management Committee to oversee the running of STEP as a whole. If you are interested in finding out more about either of these roles, please see the 'volunteering' section of this website and/or contact the office for a chat.
+                      Alternatively, why not support us in your own fundraising event or raise money by being sponsored? We can provide t-shirts and set up a sponsorship page for you on JustGiving to save the hassle of collecting the money in. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- CONTACT DETAILS -->
+
+        <section id="contact-info" class="py-5">
+            <div class="container">
+              <h2 class="pb-5">Contact Us</h2>
+              <p class="header-text pb-5">For any further information about our groups or if you want to ask us a question, please get in touch. We welcome all comments and feedback to ensure we are providing the best service possible.</p>
+              <div class="row">
+                <div class="col-md-6">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+44-1793-714042" rel="nofollow">
+                      <h4>Tel:</h4>
+                  <p class="contact-num">01793 714042</p>
+                </a>
+                  <hr class="my-4">
+                  <i class="fas fa-car"></i>
+                  <a href="/contact/#google-map">
+                    <h4>Visit Us:</h4>
+                  </a>
+                  <p> Nythe Centre, The Drive, Nythe, Swindon SN3 3RR</p>
+                </div>
+                <div class="col-md-6">
+                    <i class="fas fa-envelope"></i>
+                  <a href="/contact/">
+                    <h4>Email:</h4>
+                  </a>
+                  <p>swindonstep@aol.com</p>
+                  <hr class="my-4">
+                  <i class="far fa-comment"></i>
+                  <a href="/contact/">
+                    <h4>Contact:</h4>
+                  </a>
+                  <p>Give Feedback</p>
+                </div>
+              </div>
+              <a href="/contact/" class="btn btn-primary btn-lg btn-hover-outline mt-4">Contact Us</a>
+            </div>
+          </section>
+
+        <!-- LIGHTBOX -->
+
+        <section id="lightbox-header">
+          <h2 class="py-5 text-white d-flex align-items-center justify-content-center">Group Activities</h2>
+        </section>
+
+      <section id="home-lightbox">
+        <div class="container my-5">
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a href="images/group-activities/group-activities-1.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-1.jpg" alt="kids-painting"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-2.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-2.jpg" alt="boy-drawing"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-3.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-3.jpg" alt="teacher-with-kids"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-4.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-4.jpg" alt="boy-drawing"></a>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-5.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-5.jpg" alt="teacher-with-boy"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-6.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-6.jpg" alt="boy-drawing"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-7.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-7.jpg" alt="kids-doing-guided-relaxation"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="images/group-activities/group-activities-8.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-8.jpg" alt="three-children"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+<?php endwhile; endif; ?>
+
+<?php get_footer();

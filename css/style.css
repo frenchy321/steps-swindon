@@ -60,6 +60,10 @@ h2 {
 
 /* HOME-PAGE */
 
+.admin-bar > nav {
+    margin-top: 32px;
+}
+
 nav a {
   color: #000;
   font-weight: bold;
@@ -67,7 +71,7 @@ nav a {
 
 .navbar-brand {
   font-size: 30px;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", "Open Sans", sans-serif;
 }
 
 #home-header {
@@ -92,7 +96,7 @@ nav a {
 
 #home-header h1 {
   font-size: 90px;
-  font-family: "Segoe UI";
+  font-family: "Segoe UI", "Open Sans", sans-serif;
   color: #fff;
   position: relative;
 }
@@ -313,9 +317,8 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-#top-footer-text p {
+#top-footer-text .list-inline .menu-item {
   float: left;
-
   margin-left: 30px;
   cursor: pointer;
 }
@@ -349,7 +352,7 @@ hr {
     padding-right: 0;
   }
 
-  #top-footer-text p {
+  #top-footer-text .list-inline .menu-item {
     margin-left: 0;
   }
   .footer-social-icons {
@@ -380,8 +383,9 @@ hr {
   #top-footer-text i {
     float: none;
   }
-  #top-footer-text p {
+  #top-footer-text .list-inline .menu-item {
     float: none;
+    margin-bottom: 15px;
   }
   #footer a:hover {
     text-decoration: none;
