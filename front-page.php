@@ -2,14 +2,12 @@
 
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
-      <!-- HEADER -->
-
       <section id="home-header" class="py-5 d-flex align-items-center justify-content-center">
           <div class="container">
             <div class="row text-white">
               <div class="col-12">
-            <h1 class="py-4"><?php the_field('hero_heading'); ?></h1>
-              <h2 class="py-4"><?php the_field('hero_subheading'); ?></h2>
+            <h1 class="py-4">STEP Swindon</h1>
+              <h2 class="py-4">Focusing On Young People, Their Needs, Experiences And Contributions!</h2>
             </div>
           </div>
         </div>
@@ -33,8 +31,12 @@
                 </div>
               </div>
               <div class="col-md-4 py-5">
-                  <h2 class="py-3"><?php the_field('activities_heading'); ?></h2>
-                  <?php apply_filters('the_content', the_field('activities_content')); ?>
+                  <h2 class="py-3">Activities</h2>
+                <p>
+                  With our all of our therapeutic groups, session are designed using a wide variety of activities these include:
+                  <br>
+                  fun team building games and icebreakers, problems solving activities, art and craft, role play, discussion work, social skills and feelings cards and worksheets. We also incorporate guided relaxation and mindfulness into all of our sessions.
+                </p>
               </div>
             </div>
           </div>
