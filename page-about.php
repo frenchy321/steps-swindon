@@ -191,7 +191,7 @@
                 <div class="row">
                   <div class="col-md-4 mx-auto">
                     <h3 class="mb-4">Want To Join In!</h3>
-                <a href="documents/Application.vol.docx" download class="btn btn-lg bg-blue-gray btn-gray text-white text-center">Download</a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/documents/Application.vol.docx" download class="btn btn-lg bg-blue-gray btn-gray text-white text-center">Download</a>
               </div>
               </div>
             </div>

@@ -167,7 +167,7 @@
                   <p> If you are unable to commit to a regular time, perhaps helping to raise money for STEP would be more suited to you. If you have any ideas for this or are involved in any events, please get in touch.</p>
                 </li>
               </ul>
-              <a href="documents/Application.vol.docx" download class="btn btn-lg bg-blue-gray btn-gray text-white">Download</a>
+              <a href="<?php echo get_stylesheet_directory_uri(); ?>/documents/Application.vol.docx" download class="btn btn-lg bg-blue-gray btn-gray text-white">Download</a>
               </div>
             </div>
           </div>

@@ -13,14 +13,6 @@
                 'menu_class'      => 'list-inline'
             ]);
             ?>
-            <!-- <div class="col-md-6 col-sm-12">
-              <a href="/terms-and-conditions/" class="text-white">
-                <p>Terms And Conditions</p>
-              </a>
-              <a href="/privacy-policy/" class="text-white">
-                <p>Privacy</p>
-              </a>
-            </div> -->
             <div class="col-md-6 d-sm-inline-block footer-social-icons">
               <a href="https://facebook.com/FriendsOfStep/?ref=aymt_homepage_panel">
                 <i class="fab fa-facebook-square"></i>
@@ -43,7 +35,7 @@
       </footer>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src='http://maps.google.com/maps/api/js?key=AIzaSyCjxHJP2uTgVi2EfEPyq4E4ne-oeTursHM'></script>
+    <script type="text/javascript" src='https://maps.google.com/maps/api/js?key=AIzaSyCjxHJP2uTgVi2EfEPyq4E4ne-oeTursHM'></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/locationpicker.jquery.js"></script>
 
     <script

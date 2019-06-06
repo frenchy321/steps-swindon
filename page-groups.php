@@ -97,7 +97,7 @@
             <h2 class="pb-4 font-weight-bold">Referral Process</h2>
             <p class="header-text">Children and young people can be referred by an adult who knows them well, for example a social worker, teacher or school nurse. We prefer an Early Help Record (EHR), Initial Assessment or Core Assessment but we do have our own referral form that can be filled out—please request one (contact details overleaf). Once a referral is received, it is assessed and the STEP team will allocate the young person to the project they feel is most appropriate. The project they attend is only confirmed after the first two face-to-face sessions, as we can then be sure it is suitable.</p>
             </div>
-          <a href="documents/referral-form.docx" download class="my-4 btn btn-lg bg-blue-gray btn-gray text-white">Download</a>
+          <a href="<?php echo get_stylesheet_directory_uri(); ?>/documents/referral-form.docx" download class="my-4 btn btn-lg bg-blue-gray btn-gray text-white">Download</a>
         </div>
       </section>
 
@@ -382,30 +382,30 @@
         <div class="container my-5">
           <div class="row no-gutters">
             <div class="col-md-3">
-              <a href="images/group-activities/group-activities-1.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-1.jpg" alt="kids-painting"></a>
+              <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-1.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-1.jpg" alt="kids-painting"></a>
             </div>
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-2.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-2.jpg" alt="boy-drawing"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-2.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-2.jpg" alt="boy-drawing"></a>
             </div>
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-3.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-3.jpg" alt="teacher-with-kids"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-3.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-3.jpg" alt="teacher-with-kids"></a>
             </div>
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-4.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-4.jpg" alt="boy-drawing"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-4.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-4.jpg" alt="boy-drawing"></a>
             </div>
           </div>
           <div class="row no-gutters">
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-5.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-5.jpg" alt="teacher-with-boy"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-5.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-5.jpg" alt="teacher-with-boy"></a>
             </div>
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-6.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-6.jpg" alt="boy-drawing"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-6.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-6.jpg" alt="boy-drawing"></a>
             </div>
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-7.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-7.jpg" alt="kids-doing-guided-relaxation"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-7.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-7.jpg" alt="kids-doing-guided-relaxation"></a>
             </div>
             <div class="col-md-3">
-                <a href="images/group-activities/group-activities-8.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-8.jpg" alt="three-children"></a>
+                <a href="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-8.jpg"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/group-activities/group-activities-8.jpg" alt="three-children"></a>
             </div>
           </div>
         </div>
