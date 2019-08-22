@@ -115,7 +115,7 @@
               </div>
               <br>
               <div class="slide-link">
-                <a href="#">
+                <a href="https://www.nationwide.co.uk/">
                   <i class="fas fa-chevron-circle-right"></i> Nationwide Building Society at Optimus House, Windmill Hill, Swindon
                 </a>
               </div>
