@@ -29,6 +29,7 @@
           <div class="row text-white text-center">
             <div class="col-md-12">
               <p id="year">Copyright &copy; STEP Swindon 2009-<span>2018</span></p>
+              <p id="year">By Andy French</p>
             </div>
           </div>
         </div>
