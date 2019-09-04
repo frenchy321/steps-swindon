@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Aleo|Open+Sans:700" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" />
     <title>STEP Swindon</title>
-    <?php wp_header(); ?>
+    <?php wp_head(); ?>
   </head>
 
   <body <?php body_class(); ?>>
