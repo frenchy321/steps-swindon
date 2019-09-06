@@ -213,16 +213,17 @@
         </div>
       </div>
     </div>
+    <div class="container">
       <div class="row d-flex py-5 align-items-end justify-content-center">
         <div class="col-md-8 pt-5">
-            <a href="https://www.facebook.com/FriendsOfStep/?ref=aymt_homepage_panel" class="facebook-wrapper">
-          <h3 class="font-weight-bold">Check Out Latest News On Facebook!</h3>
+          <a href="https://www.facebook.com/FriendsOfStep/?ref=aymt_homepage_panel" class="facebook-wrapper">
+            <h3 class="font-weight-bold">Check Out Latest News On Facebook!</h3>
             <i class="fab fa-facebook mt-4"></i>
           </a>
         </div>
       </div>
     </div>
-    </section>
+  </section>
 
   <hr class="mt-0">
 
