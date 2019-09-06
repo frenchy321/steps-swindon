@@ -84,6 +84,7 @@ nav a {
   background-size: cover;
   min-height: 600px;
 }
+
 #home-header::before {
   content: '';
   position: absolute;
@@ -99,6 +100,12 @@ nav a {
   font-family: 'Segoe UI', 'Open Sans', sans-serif;
   color: #fff;
   position: relative;
+}
+
+@media screen and (max-width: 400px) {
+  #home-header h1 {
+    font-size: 70px;
+  }
 }
 
 #home-header h2 {
