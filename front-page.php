@@ -48,7 +48,7 @@
       <p>
         Although STEP has had to currently suspend all direct contact with
         children & young people, we are still thinking of you all, and
-        would like to direct you to our <span><a href="links.html">links, tips and ideas page for parents</a></span> page on our website. We will also be regularly providing
+        would like to direct you to our <span><a href="/links/">links, tips and ideas page for parents</a></span> page on our website. We will also be regularly providing
         helpful links and information on <a href="https://facebook.com/FriendsOfStep/?ref=aymt_homepage_panel"><span>our of STEP Facebook
           page</span></a>.
       </p>
