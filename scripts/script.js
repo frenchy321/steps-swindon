@@ -16,25 +16,30 @@ const covidx = document.querySelector('.popup-close');
 
 // DISPLAY COVID-19 POPUP
 
-btn.addEventListener('click', () => {
-  covid.classList.toggle('d-none');
-});
-
+if (btn) {
+  btn.addEventListener('click', () => {
+    covid.classList.toggle('d-none');
+  });
+}
 // REMOVE COVID-19 POPUP
 
-covidx.addEventListener('click', () => {
-  covid.style.display = 'none';
-});
+if (covidx) {
+  covidx.addEventListener('click', () => {
+    covid.style.display = 'none';
+  });
 
-covidx.addEventListener('click', () => {
-  covid.style.display = 'none';
-  location.reload(true);
-});
+  covidx.addEventListener('click', () => {
+    covid.style.display = 'none';
+    location.reload(true);
+  });
+}
 
-covid.addEventListener('click', () => {
-  covid.style.display = 'none';
-  location.reload(true);
-});
+if (covid) {
+  covid.addEventListener('click', () => {
+    covid.style.display = 'none';
+    location.reload(true);
+  });
+}
 
 // QUOTE-SLIDER
 
