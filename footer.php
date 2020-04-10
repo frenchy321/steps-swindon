@@ -53,7 +53,7 @@
 
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/jquery.magnific-popup.js"></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/jquery-tiles-slider.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/script.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/script.js?v=1"></script>
     
     <?php wp_footer(); ?>
   </body>
