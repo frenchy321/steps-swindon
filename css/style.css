@@ -74,6 +74,17 @@ nav a {
   font-family: 'Segoe UI', 'Open Sans', sans-serif;
 }
 
+/* COVID-19 */
+
+.popup-close {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 #home-header {
   background-image: url('../images/hero-pic.jpg');
   background-attachment: static;
