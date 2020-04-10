@@ -62,25 +62,13 @@ h2 {
 
 /* COVID-19 */
 
-.popup-wrapper {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  display: none;
-}
-
-.covid-btn {
-  position: relative;
-}
-
 .popup-close {
   position: absolute;
   cursor: pointer;
-  top: 5px;
-  right: 3px;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /* NAV */

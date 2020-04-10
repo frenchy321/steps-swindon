@@ -1,27 +1,29 @@
 // COVID-19
 
-const btn = document.querySelector('button');
+const btn = document.querySelector('.covid-btn');
 const covid = document.querySelector('.covid');
-const covidWrapper = document.querySelector('.popup-wrapper');
-const covidX = document.querySelector('popup-remove');
+const covidx = document.querySelector('.popup-close');
 
 // DISPLAY COVID-19 POPUP
 
 btn.addEventListener('click', () => {
   covid.classList.toggle('d-none');
-  covidWrapper.style.display = 'block';
 });
 
 // REMOVE COVID-19 POPUP
 
-covidX.addEventListener('click', () => {
+covidx.addEventListener('click', () => {
   covid.style.display = 'none';
-  covidWrapper.style.display = 'none';
 });
 
-covidWrapper.addEventListener('click', () => {
+covidx.addEventListener('click', () => {
   covid.style.display = 'none';
-  covidWrapper.style.display = 'none';
+  location.reload(true);
+});
+
+covid.addEventListener('click', () => {
+  covid.style.display = 'none';
+  location.reload(true);
 });
 
 // HOME-ICONS-SLIDER
