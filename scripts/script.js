@@ -1,19 +1,43 @@
+// COVID-19
+
+const btn = document.querySelector('button');
+const covid = document.querySelector('.covid');
+const covidWrapper = document.querySelector('.popup-wrapper');
+const covidX = document.querySelector('popup-remove');
+
+// DISPLAY COVID-19 POPUP
+
+btn.addEventListener('click', () => {
+  covid.classList.toggle('d-none');
+  covidWrapper.style.display = 'block';
+});
+
+// REMOVE COVID-19 POPUP
+
+covidX.addEventListener('click', () => {
+  covid.style.display = 'none';
+  covidWrapper.style.display = 'none';
+});
+
+covidWrapper.addEventListener('click', () => {
+  covid.style.display = 'none';
+  covidWrapper.style.display = 'none';
+});
+
 // HOME-ICONS-SLIDER
 
-$(function() {
-  var items = $("#home-icons i, #home-icons h3");
+$(function () {
+  var items = $('#home-icons i, #home-icons h3');
 
-  items.on("click", function() {
-    $(this)
-      .siblings("div")
-      .slideToggle(1000);
+  items.on('click', function () {
+    $(this).siblings('div').slideToggle(1000);
   });
 });
 
 // QUOTE-SLIDER
 
-$(function() {
-  var allQuotes = $(".quote-slider");
+$(function () {
+  var allQuotes = $('.quote-slider');
   var currentQuote = 0;
 
   function changeQuote() {
@@ -33,55 +57,55 @@ $(function() {
 
 // CAROUSELS (HOME AND GROUPS)
 
-$(".carousel").carousel({
-  interval: 4000
+$('.carousel').carousel({
+  interval: 4000,
 });
 
 // Get the current year for the copyright
 
-$("#year span").text(new Date().getFullYear());
+$('#year span').text(new Date().getFullYear());
 
 // TOOLTIP
 
-$(function() {
+$(function () {
   $('[data-toggle="tooltip"]').tooltip();
 });
 
 // HOME-LIGHTBOX
 
-$(function() {
-  $("#home-lightbox a").magnificPopup({
-    type: "image",
-    gallery: { enabled: true }
+$(function () {
+  $('#home-lightbox a').magnificPopup({
+    type: 'image',
+    gallery: { enabled: true },
   });
 });
 
 // GOOGLE-MAP
 
-$(function() {
+$(function () {
   if ($.prototype.locationpicker) {
-    $("#google-map").locationpicker({
+    $('#google-map').locationpicker({
       location: {
         latitude: 51.5655819,
-        longitude: -1.7444095
+        longitude: -1.7444095,
       },
-      enableReverseGeocode: false
+      enableReverseGeocode: false,
     });
   }
 });
 
 // CONTACT-FORM
 
-$(function() {
-  $("#contact-form").submit(function(e) {
+$(function () {
+  $('#contact-form').submit(function (e) {
     var textInputs = $(this).find("input[type='text'], textarea");
     let isValid = true;
-    textInputs.each(function(index) {
-      if ($(this).val() === "") {
-        $(this).css({ border: "1px solid red" });
+    textInputs.each(function (index) {
+      if ($(this).val() === '') {
+        $(this).css({ border: '1px solid red' });
         isValid = false;
       } else {
-        $(this).css({ border: "none" });
+        $(this).css({ border: 'none' });
       }
     });
 

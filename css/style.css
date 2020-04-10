@@ -60,6 +60,35 @@ h2 {
 
 /* HOME-PAGE */
 
+/* COVID-19 */
+
+.popup-wrapper {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+}
+
+.covid-btn {
+  position: relative;
+}
+
+.popup-close {
+  position: absolute;
+  cursor: pointer;
+  top: 5px;
+  right: 3px;
+}
+
+/* NAV */
+
+.admin-bar > nav {
+  margin-top: 32px;
+}
+
 nav a {
   color: #000;
   font-weight: bold;
@@ -67,11 +96,11 @@ nav a {
 
 .navbar-brand {
   font-size: 30px;
-  font-family: "Segoe UI";
+  font-family: 'Segoe UI';
 }
 
 #home-header {
-  background-image: url("../images/hero-pic.jpg");
+  background-image: url('../images/hero-pic.jpg');
   background-attachment: static;
   background-position: 0 0;
   position: relative;
@@ -81,7 +110,7 @@ nav a {
   min-height: 600px;
 }
 #home-header::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -92,14 +121,14 @@ nav a {
 
 #home-header h1 {
   font-size: 90px;
-  font-family: "Segoe UI";
+  font-family: 'Segoe UI';
   color: #fff;
   position: relative;
 }
 
 #home-header h2 {
   font-size: 40px;
-  font-family: "Aleo", serif;
+  font-family: 'Aleo', serif;
   position: relative;
 }
 
@@ -234,7 +263,7 @@ hr {
 }
 
 .slide-link::after {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 2px;
@@ -405,7 +434,7 @@ hr {
 /* ABOUT PAGE */
 
 #about-hero {
-  background-image: url("../images/hero-image.jpg");
+  background-image: url('../images/hero-image.jpg');
   background-attachment: fixed;
   background-position: 0 0;
   position: relative;
@@ -414,7 +443,7 @@ hr {
   min-height: 500px;
 }
 #about-hero::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -474,7 +503,7 @@ hr {
 }
 
 #testimonials-header {
-  background-image: url("../images/testimonials-overlay.jpg");
+  background-image: url('../images/testimonials-overlay.jpg');
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
@@ -495,7 +524,7 @@ hr {
 }
 
 #testimonials-header::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -550,7 +579,7 @@ hr {
 }
 
 .slide-link a::after {
-  content: "";
+  content: '';
   display: block;
   width: 0;
   height: 2px;
@@ -621,7 +650,7 @@ hr {
 /*  HEADER */
 
 #contact-us {
-  background-image: url("../images/teenagers-on-wall.jpg");
+  background-image: url('../images/teenagers-on-wall.jpg');
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
@@ -630,7 +659,7 @@ hr {
   min-height: 400px;
 }
 #contact-us::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -650,7 +679,7 @@ hr {
 
 /* CONTACT-FORM */
 
-input[type="text"],
+input[type='text'],
 select,
 textarea {
   width: 100%;
@@ -669,10 +698,10 @@ textarea {
   padding: 20px;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   border: 2px solid #007bff;
 }
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background-color: #fff !important;
   border: 2px solid #007bff;
   color: #007bff !important;
