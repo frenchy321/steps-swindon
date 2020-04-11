@@ -85,6 +85,12 @@ nav a {
   font-weight: bold;
 }
 
+@media only screen and (min-device-width: 380px) and (max-device-width: 420px) {
+  .popup-close {
+    display: block;
+  }
+}
+
 #home-header {
   background-image: url('../images/hero-pic.jpg');
   background-attachment: static;
