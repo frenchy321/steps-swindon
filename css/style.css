@@ -71,6 +71,13 @@ h2 {
   font-weight: bold;
 }
 
+@media only screen and (max-device-width: 420px) {
+  .popup-close {
+    display: block;
+    position: static;
+  }
+}
+
 /* NAV */
 
 .admin-bar > nav {
