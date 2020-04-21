@@ -15,7 +15,7 @@
   class="container covid my-5 text-center mx-auto rounded w-75 d-none"
 >
 <div class="row align-items-center justify-content-center">
-    <div class="col-md-6 py-4 covid-19 bg-danger text-white">
+    <div class="col-lg-6 py-4 covid-19 bg-danger text-white">
       <i class="fas fa-times popup-close"></i>
       <h2>
         COVID-19
