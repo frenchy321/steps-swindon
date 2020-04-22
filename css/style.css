@@ -71,7 +71,7 @@ h2 {
   font-weight: bold;
 }
 
-@media only screen and (max-device-width: 420px) {
+@media only screen and (max-device-width: 820px) {
   .popup-close {
     display: block;
     position: static;
@@ -121,11 +121,17 @@ nav a {
   position: relative;
 }
 
+@media only screen and (max-device-width: 420px) {
+  #home-header h1 {
+    font-size: 30px;
+  }
+
 #home-header h2 {
   font-size: 40px;
   font-family: 'Aleo', serif;
   position: relative;
 }
+
 
 /* TILE-SLIDER-PLUGIN */
 
