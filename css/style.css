@@ -120,11 +120,10 @@ nav a {
   position: relative;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-device-width: 420px) {
   #home-header h1 {
-    font-size: 70px;
+    font-size: 50px;
   }
-}
 
 #home-header h2 {
   font-size: 40px;
