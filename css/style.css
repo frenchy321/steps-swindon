@@ -60,23 +60,6 @@ h2 {
 
 /* HOME-PAGE */
 
-/* COVID-19 */
-
-.covid-btn:focus {
-  outline: none !important;
-}
-
-.popup-close {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  right: 5px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-/* NAV */
-
 .admin-bar > nav {
   margin-top: 32px;
 }
@@ -88,7 +71,25 @@ nav a {
 
 .navbar-brand {
   font-size: 30px;
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+}
+
+/* COVID-19 */
+
+.popup-close {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-device-width: 420px) {
+  .popup-close {
+    display: block;
+    position: static;
+  }
 }
 
 #home-header {
@@ -101,6 +102,7 @@ nav a {
   background-size: cover;
   min-height: 600px;
 }
+
 #home-header::before {
   content: '';
   position: absolute;
@@ -113,14 +115,14 @@ nav a {
 
 #home-header h1 {
   font-size: 90px;
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
   color: #fff;
   position: relative;
 }
 
 @media only screen and (max-device-width: 420px) {
   #home-header h1 {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', 'Open Sans', sans-serif;
     font-size: 60px;
   }
 }
@@ -341,9 +343,8 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-#top-footer-text p {
+#top-footer-text .list-inline .menu-item {
   float: left;
-
   margin-left: 30px;
   cursor: pointer;
 }
@@ -377,7 +378,7 @@ hr {
     padding-right: 0;
   }
 
-  #top-footer-text p {
+  #top-footer-text .list-inline .menu-item {
     margin-left: 0;
   }
   .footer-social-icons {
@@ -408,8 +409,9 @@ hr {
   #top-footer-text i {
     float: none;
   }
-  #top-footer-text p {
+  #top-footer-text .list-inline .menu-item {
     float: none;
+    margin-bottom: 15px;
   }
   #footer a:hover {
     text-decoration: none;
@@ -433,7 +435,7 @@ hr {
 /* ABOUT PAGE */
 
 #about-hero {
-  background-image: url('../images/hero-image.jpg');
+  background-image: url('../images/about-header.jpg');
   background-attachment: fixed;
   background-position: 0 0;
   position: relative;
