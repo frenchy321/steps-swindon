@@ -36,7 +36,7 @@
       </footer>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src='https://maps.google.com/maps/api/js?key=AIzaSyCjxHJP2uTgVi2EfEPyq4E4ne-oeTursHM'></script>
+    <script type="text/javascript" src='https://maps.google.com/maps/api/js?key=AIzaSyCGP56EodLYBrZvBdsH7cNB1feSPIRsmXY'></script>
     <script src="<?php echo get_stylesheet_directory_uri(); ?>/scripts/locationpicker.jquery.js"></script>
 
     <script
