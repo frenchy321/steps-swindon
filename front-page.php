@@ -21,41 +21,11 @@
         COVID-19
       </h2>
       <p>
-        Following the guidance around COVID-19, STEP has now reduced its
-        level of operation in order to allow as many staff members as
-        possible to work from home.
+      STEP Swindon are working hard to re-open our service from September 2020. Due to Government Advice and Guidance limited spaces are available and those families that have been allocated a place have already been contacted, we will be contacting all other families still waiting for a service over the coming weeks.
       </p>
       <p>
-        Our primary concern is always for the welfare and health of the
-        children, young people, parents, carers and colleagues we work
-        with. To ensure we do our utmost to keep everyone safe, we have
-        suspended all our group sessions and direct contact with children
-        and young people.
+      Staff are now working in the office on a part time basis, if you have any queries or need any advice or guidance please contact us on  01793 714042 Monday – Friday 9.30am – 4pm.
       </p>
-      <p>
-        Due to changes happening daily, and no decision as to when the
-        lockdown will end, we unfortunately are not able to give a date
-        when our service will resume as normal. Please be assured that as
-        soon as we have any updates our first priority is contacting all
-        parent / carers and colleagues.
-      </p>
-      <p>
-        Our main office is now closed, However, If you do need to get in
-        touch with us, or If you have any concerns or questions, please
-        contact us on the main STEP email: swindonstep@aol.com –
-        Individual workers will be responding to their own emails.
-      </p>
-      <p>
-        Although STEP has had to currently suspend all direct contact with
-        children & young people, we are still thinking of you all, and
-        would like to direct you to our <span><a href="/links/">links, tips and ideas page for parents</a></span> page on our website. We will also be regularly providing
-        helpful links and information on our <a href="https://facebook.com/FriendsOfStep/?ref=aymt_homepage_panel"><span>STEP Facebook
-          page</span></a>.
-      </p>
-      <h5>
-        Thank you for your understanding, be safe and take care of each
-        other.
-      </h5>
     </div>
   </div>
 </div>
