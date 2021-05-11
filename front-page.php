@@ -1,34 +1,6 @@
 <?php get_header(); ?>
 
-<!--  COVID-19 -->
 
-    
-<div>
-  <button
-    class="covid-btn rounded btn-lg bg-danger mx-auto text-white align-items-center justify-content-center w-100"
-  >
-    COVID-19 Update
-  </button>
-</div>
-
-<div
-  class="container covid my-5 text-center mx-auto rounded w-75 d-none"
->
-<div class="row align-items-center justify-content-center">
-    <div class="col-lg-8 py-4 covid-19 bg-danger text-white">
-        <i class="fas fa-times popup-close float-right p-2"></i>
-      <h2>
-        COVID-19
-      </h2>
-      <p>
-      STEP Swindon are working hard to re-open our service from September 2020. Due to Government Advice and Guidance limited spaces are available and those families that have been allocated a place have already been contacted, we will be contacting all other families still waiting for a service over the coming weeks.
-      </p>
-      <p>
-      Staff are now working in the office on a part time basis, if you have any queries or need any advice or guidance please contact us on  01793 714042 Monday – Friday 9.30am – 4pm.
-      </p>
-    </div>
-  </div>
-</div>
 
 <?php if (have_posts()): while (have_posts()): the_post(); ?>
 
